@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>拆解 - Brandon个人博客</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="Fechin,"> 
+    <meta name="description" content="
+前言：格斗游戏本质上就是回合制的博弈游戏，从博弈角度拆解动作系统可以对该游戏有着全新的认识和理解。
+
+
+
+1.博弈映射部分1.1博弈概念博弈是指在一定的游戏规则约束下，基于直接相互作用的环境条件，,"> 
+    <meta name="author" content="John Doe"> 
+    <link rel="alternative" href="atom.xml" title="Brandon个人博客" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">Brandon个人博客</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://example.com"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">拆解</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">拆解</h1>
+        <div class="stuff">
+            <span>十月 26, 2021</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E6%8B%86%E8%A7%A3/" rel="tag">拆解</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <blockquote>
+<p>前言：格斗游戏本质上就是回合制的博弈游戏，从博弈角度拆解动作系统可以对该游戏有着全新的认识和理解。</p>
+</blockquote>
+<p><img src="https://img-blog.csdnimg.cn/3eb7659c41834145a9634add965e25c2.png?x-oss-process=image,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LuK5aSp5L2g5Lus5o6J5aS05Y-R5LqG5ZCX,size_20,color_FFFFFF,t_70,g_se,x_16"></p>
+<p><img src="https://img-blog.csdnimg.cn/c3e4e38fda3d4b53847fe4521c52a300.png?x-oss-process=image,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LuK5aSp5L2g5Lus5o6J5aS05Y-R5LqG5ZCX,size_20,color_FFFFFF,t_70,g_se,x_16" alt="这是拆解的主体框架"></p>
+<h2 id="1-博弈映射部分"><a href="#1-博弈映射部分" class="headerlink" title="1.博弈映射部分"></a>1.博弈映射部分</h2><h3 id="1-1博弈概念"><a href="#1-1博弈概念" class="headerlink" title="1.1博弈概念"></a>1.1博弈概念</h3><p>博弈是指在一定的游戏规则约束下，基于直接相互作用的环境条件，各参与人依靠所掌握的信息，选择各自策略（行动），以实现利益最大化和风险成本最小化的过程（百度百科）</p>
+<p>在<strong>《super smash bros 》</strong>中，博弈由5方面组成<br><strong>博弈的参加者</strong>：即博弈过程中独立决策、独立承担后果的个人和组织；<br>指游戏中对抗中的玩家与玩家/玩家与AI<br><strong>博弈信息</strong>：即博弈者所掌握的对选择策略有帮助的情报资料；<br>指己方与敌方角色的动作机制、技能特性、地图信息，血量、道具资源，角色的攻击判定框大小等<br><strong>搏弈方可选择的全部行为或策略的集合</strong>：<br>包括距离控制，道具获取，场上站位，猛击/普攻/smash的选择 攻击方向和位移的选择等。<br><strong>博弈的次序</strong>：即博弈参加者做出策略选择的优先级.<br><strong>博弈方的收益</strong>：即各博弈方做出决策选择后的取得的博弈优势资源和劣势资源。<br><strong>super smash bros</strong>中的格斗价值杠杆为血量，敌方血量的损失量决定角色击飞距离以及距离死亡的危险程度。</p>
+<h3 id="1-2-博弈流程分析"><a href="#1-2-博弈流程分析" class="headerlink" title="1.2 博弈流程分析"></a>1.2 博弈流程分析</h3><p>博弈是格斗游戏的胜负手，博弈后选择的行为集决定了玩家在对局中的收益与损失。</p>
+<p>下面，将通过一局对战的流程解析玩家博弈中的行为以及博弈在游戏中的映射<br><img src="https://img-blog.csdnimg.cn/3a77ad3855c1402e842c32d09c6d9f91.png?x-oss-process=image,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LuK5aSp5L2g5Lus5o6J5aS05Y-R5LqG5ZCX,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/b88fcd61e7a44f7cace5a2ff33c02de7.png?x-oss-process=image,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LuK5aSp5L2g5Lus5o6J5aS05Y-R5LqG5ZCX,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/908b8e4dfc1546ef8bc0473e64f09b39.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LuK5aSp5L2g5Lus5o6J5aS05Y-R5LqG5ZCX,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<h3 id="1-3博弈资源拆解"><a href="#1-3博弈资源拆解" class="headerlink" title="1.3博弈资源拆解"></a>1.3博弈资源拆解</h3><p>可将博弈资源分为动态资源和静态资源两类。</p>
+<p> 静态资源包括游戏规则、地图以及角色预制属性，静态资源的保有度是不变的。<br>动态资源包括血条、场上站位、角色状态（攻/守、移动/静止），道具等，动态资源随着对局发展时刻发生变化。</p>
+<h2 id="2-动作系统拆解"><a href="#2-动作系统拆解" class="headerlink" title="2.动作系统拆解"></a>2.动作系统拆解</h2><h3 id="2-1系统分析"><a href="#2-1系统分析" class="headerlink" title="2.1系统分析"></a>2.1系统分析</h3><p><em>我选取了林克作为分析对象</em><br>林克的动作资源包括空中动作资源、地面动作资源和特殊资源。<br><strong>可以得出林克在博弈过程中优劣资源的总体评价</strong><br>优势：较多的远程攻击技能（炸弹、回旋镖、弓箭、剑气）<br>             多样的KO技（除普攻，其他攻击均易触发KO）<br>              控制场上站位能力优秀<br>             剑的伤害判定范围较大<br>劣势：许多攻击后摇帧过长，破绽较多<br>             移动偏慢，回场（生存）能力较差<br>              对近身敌人防御能力较差</p>
+<p>在大多数榜单排行中，林克的战力均处于标准线之上的位置，混合进攻以及优秀的远程拉扯能力是他的优势所在，同时炸弹回旋镖也颇具游戏趣味。</p>
+<h3 id="2-2-博弈的循环性"><a href="#2-2-博弈的循环性" class="headerlink" title="2.2 博弈的循环性"></a>2.2 博弈的循环性</h3><p>之前在博弈映射部分已经提到，格斗游戏本质上是零和博弈，玩家行为模式、状态的改变均对游戏博弈资源发生改变，下面就用X、Y散点图来表示这种系统的循环性。<br>场上玩家：林克&amp;enemy<br>游戏中<br>博弈静态资源的分配是稳定的，双方均分配50%<br>而动态资源随着游戏对局双方博弈策略的使用发生动态改变</p>
+<p>格斗游戏中，每一次双方之间的攻防以及行为模式的改变均可以细分成一次回合，只不过相较于回合制游戏的资源的线性变化，格斗游戏以拟态曲线进行发展，下面是我将林克和对手的10次攻防回合做出了X、Y散点图</p>
+<p><img src="https://img-blog.csdnimg.cn/814998c716c74d288c549cdd5f31dac5.png?x-oss-process=image,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LuK5aSp5L2g5Lus5o6J5aS05Y-R5LqG5ZCX,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"><br>解释：1.游戏的博弈资源是恒定的单位1，对局开始，双方的博弈资源均是0.5<br>2.回合1是林克打破立回局面，进入攻势，他获得了对手伤害值的反馈以及场上站位的主动权，对于开场这回合，他获得了0.1博弈资源的加成。<br>3.后续的变化均来自双方之间的攻防策略的选择，或是道具资源的加入短暂在本回合获得优势。<br>4.若对该函数曲线求定积分，面积的大小是判定游戏胜负的决定要素，在通常情况下，随着回合数的增多，面积突破一个固定值，该角色将获得胜利。<br>5.当然，若出现自杀、回场失误等决定比赛的关键失误，该角色在这回合的博弈资源损失量接近无穷大，直接使对手获得胜利。<br>6.博弈资源的消耗和获得是相互的，林克损失的博弈资源将被对手获取。<br>7.对于林克自身，采取不同的行为模式和战术策略使得自身的博弈资源不断增加或减少，最终在对局结束后形成博弈资源在游戏对战中的集中反馈，形成了角色内部的获取-反馈小循环。<br>8.对于双方，见招拆招的攻防,使得双方的博弈资源不断发生转换，而但总和始终保持不变，形成格斗系统内部资源的大循环。</p>
+<h3 id="2-3行为集拆解动作系统元素对-对局中的克制关系产生巨大影响"><a href="#2-3行为集拆解动作系统元素对-对局中的克制关系产生巨大影响" class="headerlink" title="2.3行为集拆解动作系统元素对 对局中的克制关系产生巨大影响"></a>2.3行为集拆解动作系统元素对 对局中的克制关系产生巨大影响</h3><p>分为3个方面，分别是时间维度，空间维度和指令维度。<br>时间维度方面：不同动作组合分别具有不同的前摇后摇帧，而攻防直接的帧数差直接决定了攻击或者防御的奏效与否。<br>空间维度方面：移动，跳跃，静止都带来场上位置的变化，场上站位也是格斗游戏中博弈的关键点，不同的空间高度层次直接影响攻击的克制关系，例如角色因二段跳处于高位，则上吹飞、上必杀可对其带来克制关系。<br>指令维度：由于格斗游戏的预输入机制，不同的招数列表拥有不同的优先级，利用好预输入机制可以使用目押连段等方式持续克制对方角色。</p>
+<h2 id="3-体验反思"><a href="#3-体验反思" class="headerlink" title="3.体验反思"></a>3.体验反思</h2><h3 id="3-1博弈本质"><a href="#3-1博弈本质" class="headerlink" title="3.1博弈本质"></a>3.1博弈本质</h3><p>FTG强调胜负概念，是零和博弈。之前已经提到过玩家本身内部的循环以及对局双方之间的博弈循环，再补充一些观点以对博弈本质进行阐述。<br>博弈不仅包括对局双方的博弈，还包括玩家与自己心理的博弈，需要即时在与对手的博弈中，与自己本来的操作习惯进行心理对峙与博弈。<br>因此我们得出FTG中博弈的本质 ：玩家获取静态资源的信息资源，争夺游戏中的动态资源，在回合制的对抗中使自己处于有利形势。</p>
+<h3 id="3-2博弈点"><a href="#3-2博弈点" class="headerlink" title="3.2博弈点"></a>3.2博弈点</h3><p>1.势的争夺<br>游戏中可将玩家的状态分为攻势、中势与守势。</p>
+<p>根据玩家博弈策略的有效与否，攻守势会不断发生变化。</p>
+<p>玩家所处的势态决定了之后的行为模式，处于守势而定玩家需要把握好攻势玩家在攻击之后短暂出现的中势时间及时扭转势态。处于攻势的玩家需要利用场上站位、动作资源等将自己保持在攻势状态、</p>
+<p>而中势则是玩家对抗中神经最紧绷的状态，随时可能通过攻防回合进入攻势或者守势。</p>
+<p>2.择<br>指在处于有利帧/对手暂时硬直状态，使得对手做出博弈选择。</p>
+<p>多择：多择类似于猜拳，进攻方有两种以上发起进攻的方式，分别对应着防御方不同的有效防守的方式，只有预判到了（或者猜中了）进攻方的手段，才能进行有效的防御，阻止进攻方完成确认。<br>这考验处于劣势一方的即时博弈能力，而处于有利一方的玩家，由于占据大量博弈资源，需要利用好择，将优势转化为胜势。<br>3.场地的争夺</p>
+<p>无论是如KOF将对手逼近边角，还是《super smash bros》中将对手击飞出中场，博弈的核心点均是为了场地的争夺。一般来说，越靠近中间位置，越处于有利地位。因为其可用的博弈资源很多，向左向右向上跳跃等都可以使用，可以衍生出很多攻防方案，而处于边场的玩家只有2个方向可以选择，并且占据的博弈资源很少，对手很容易预判其行为模式进行进攻压制。 </p>
+<p>4.帧数<br>抓帧也是出色的格斗游戏玩家不可忽视的博弈关键点，通过之前分析的出招帧数表，可以明确了解各种招数的出招帧数，在于对手进行对抗时，需要合理规划自己出招的伤害与速度的平衡性，同时利用预输入机制将自己出招连续化。目押等操作都是把握攻击招式的间隔帧数差，实现博弈过程中的收益最大化。</p>
+<h3 id="3-3如何2d格斗转3d格斗？"><a href="#3-3如何2d格斗转3d格斗？" class="headerlink" title="3.3如何2d格斗转3d格斗？"></a>3.3如何2d格斗转3d格斗？</h3><p>1.3D游戏增加了一个坐标轴，使得原来平面的对战变得多维度化。原先的对于距离控制博弈在多维度下显然难以维系，因为对手在X轴和Y轴均可躲避。</p>
+<p>因此需要增加类似永劫无间钩索这种快速位移道具，或者如火影忍者究极风暴中快速锁定近身的键位操作，实现位移的精准化。使得原先的2D横屏对抗中的即时博弈在3D中仍然适用。</p>
+<p>2D游戏中的攻防节奏速度极快，极大考验博弈的精准性和技巧性，3D游戏视野开阔，空间大，攻防转换较慢，需要增加随着格斗时间增加，场地逐渐缩小（或毒圈逐渐包围）的机制，逐渐收缩玩家间的动作资源，实现博弈的正常运行。</p>
+<p>3.增强地形/地图架构在游戏对战的重要性，玩家利用地形掩体抵挡对手攻击，利用不同地域的高低差实现下落攻击，将得原先的博弈资源得到合理补充。</p>
+<p>4.减少跳跃的高度和速度，3D格斗游戏非ACT需要大量的空中攻击之类的表演性对抗，频繁的跳跃对于游戏镜头视角也极难处理，降低跳跃高度和速度使得玩家更注重于地面的对战博弈。</p>
+<p>5.在页面追加小地图，显示双方位置，使得博弈过程中对于的场地控制。</p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                        
+                            <li title='1' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='true'
+        data-ae='false'
+        data-ci=''
+        data-cs=''
+        data-r=''
+        data-o=''
+        data-a=''
+        data-d='false'
+    >查看评论</div>
+
+
+    </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>
