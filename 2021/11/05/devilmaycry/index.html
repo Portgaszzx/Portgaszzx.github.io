@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="en" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>devilmaycry - Brandon个人博客</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="Fechin,"> 
+    <meta name="description" content="《鬼泣V》的关卡设计写在前面：
+•关卡强度不是节节攀升的•玩家面对熟悉的强度，体验到的强度会相对于实际的下降；反之，当面对不熟悉的强度时，体验到的强度会上升• 重视关卡节奏
+
+1.理论基础
+过山车理,"> 
+    <meta name="author" content="John Doe"> 
+    <link rel="alternative" href="atom.xml" title="Brandon个人博客" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">Brandon个人博客</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://example.com"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">devilmaycry</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">devilmaycry</h1>
+        <div class="stuff">
+            <span>十一月 05, 2021</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E6%8B%86%E8%A7%A3/" rel="tag">拆解</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <h1 id="《鬼泣V》的关卡设计"><a href="#《鬼泣V》的关卡设计" class="headerlink" title="《鬼泣V》的关卡设计"></a>《鬼泣V》的关卡设计</h1><h2 id="写在前面："><a href="#写在前面：" class="headerlink" title="写在前面："></a>写在前面：</h2><blockquote>
+<p>•关卡强度不是节节攀升的<br>•玩家面对熟悉的强度，体验到的强度会相对于实际的下降；反之，当面对不熟悉的强度时，体验到的强度会上升<br>• 重视关卡节奏</p>
+</blockquote>
+<h2 id="1-理论基础"><a href="#1-理论基础" class="headerlink" title="1.理论基础"></a>1.理论基础</h2><ul>
+<li>过山车理论<br><img src="https://img-blog.csdnimg.cn/b7a1386ee5ed4f71b8b79b51e47756d2.png?x-oss-process=image,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LuK5aSp5L2g5Lus5o6J5aS05Y-R5LqG5ZCX,size_10,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"><br>关卡强度变化可以模拟过山车的节奏，在攀升到一定峰值的时候下降，随后再次攀升。</li>
+<li>关卡难度<br> 敌人的动作性难度取决于它的前摇、伤害判定、后摇帧数，攻击的覆盖范围，敌人的防御值<ul>
+<li>前摇后摇体现了玩家的反应时间</li>
+<li>攻击范围体现了玩家的距离控制的精度以及攻防拉扯的水平</li>
+<li>防御值体现了玩家通过对敌人（血量、硬直状态）等的变化采取不同进攻策略的水平。  </li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>戏剧元素</p>
+<ul>
+<li><p>游戏除了可以玩以外还可以传达一些信息，这些信息将游戏世界塑造得更加丰满而有魅力。不是每一个游戏都包含有戏剧元素，所以它与游戏之间不存在必要关系。</p>
+</li>
+<li><p>但这不能理解为戏剧元素不重要，我们谈游戏时强调代入感和沉浸感，而戏剧元素是实现这两个重要指标的重要手段。</p>
+</li>
+<li><p>人人都很喜欢听故事，戏剧元素正好满足了人的这一基本需求。戏剧元素包括挑战、玩法、背景、角色和故事，将这些元素循序渐进的让玩家感知，就可能产生一种奇妙的魔法效应，让玩家欲罢不能。</p>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>正规元素</p>
+<ul>
+<li>正规元素包括玩家、目标、操作、规则、冲突、边界、结果。这些元素是游戏独一无二和不可或缺的，它们相互作用构成了一个基本的游戏世界。</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-关卡拆解"><a href="#2-关卡拆解" class="headerlink" title="2.关卡拆解"></a>2.关卡拆解</h2><h3 id="2-1敌人分类"><a href="#2-1敌人分类" class="headerlink" title="2.1敌人分类"></a>2.1敌人分类</h3><p><img src="https://img-blog.csdnimg.cn/6406ca706d344c42bd786d91c347a764.png?x-oss-process=image,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LuK5aSp5L2g5Lus5o6J5aS05Y-R5LqG5ZCX,size_18,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<h3 id="2-2-资源投放"><a href="#2-2-资源投放" class="headerlink" title="2.2 资源投放"></a>2.2 资源投放</h3><p><strong>stage1:</strong></p>
+<p>3个苍蝇</p>
+<p><strong>stage2：</strong></p>
+<p>4个苍蝇+1个剪刀怪+1魂石蚁</p>
+<p><strong>stage3：</strong></p>
+<p>一魂石蚁</p>
+<p>（拿幼体途中）</p>
+<p><strong>进入宫殿后：</strong></p>
+<p><strong>stage4：</strong></p>
+<p>3镰刀怪</p>
+<p><strong>stage5：</strong></p>
+<p>2剪刀怪</p>
+<p><strong>stage6：</strong></p>
+<p>菜刀哥+镰刀</p>
+<p><strong>stage7</strong>:<br>4镰刀</p>
+<p><strong>stage8:</strong><br>1苍蝇</p>
+<p><strong>stage9</strong>：<br>2菜刀哥</p>
+<p><strong>stage10：</strong><br>Boss</p>
+<h2 id="3-游玩体验"><a href="#3-游玩体验" class="headerlink" title="3.游玩体验"></a>3.游玩体验</h2><p><img src="https://img-blog.csdnimg.cn/7b806bd74d5f42e08f3555e00b7110c7.png?x-oss-process=image,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LuK5aSp5L2g5Lus5o6J5aS05Y-R5LqG5ZCX,size_9,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<ul>
+<li><p>通过把每个stage出现的怪物进行量化处理得到这样的体验强度表。</p>
+<p>可以发现鬼泣5的mission2的体验强度满足关卡设计中的过山车理论。</p>
+</li>
+</ul>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                        
+                            <li title='1' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='true'
+        data-ae='false'
+        data-ci=''
+        data-cs=''
+        data-r=''
+        data-o=''
+        data-a=''
+        data-d='false'
+    >查看评论</div>
+
+
+    </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>
