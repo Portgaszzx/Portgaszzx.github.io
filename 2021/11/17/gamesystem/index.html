@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="en" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>浅谈游戏系统 - Brandon个人博客</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="Fechin,"> 
+    <meta name="description" content="浅谈游戏系统
+某日，Brandon突发奇想（脑子抽了）买了《异度之刃2》开始游玩，虽然画质不如原神，但他还是沉下心来连续游玩了10个小时。”这游戏战斗系统怎么样？“ 舍友随口一问瞬间让Brandon,"> 
+    <meta name="author" content="John Doe"> 
+    <link rel="alternative" href="atom.xml" title="Brandon个人博客" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">Brandon个人博客</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://example.com"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">浅谈游戏系统</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">浅谈游戏系统</h1>
+        <div class="stuff">
+            <span>十一月 17, 2021</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E7%B3%BB%E7%BB%9F/" rel="tag">系统</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <h1 id="浅谈游戏系统"><a href="#浅谈游戏系统" class="headerlink" title="浅谈游戏系统"></a>浅谈游戏系统</h1><blockquote>
+<p>某日，Brandon突发奇想（<del>脑子抽了</del>）买了《异度之刃2》开始游玩，虽然画质不如原神，但他还是沉下心来连续游玩了10个小时。”这游戏战斗系统怎么样？“ 舍友随口一问瞬间让Brandon摸不着头脑，异刃连击，御刃者连击，融合连击等各种攻击方式以及眼花缭乱的属性加成真的太多了，他脑袋里根本不知道战斗系统是什么样的。</p>
+<p>Brandon决心学习了游戏系统，而这，就是本文的由来</p>
+</blockquote>
+<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><blockquote>
+<p>“A system can be defined as a set of elements standing in interrelations.” – Ludwig von Bertalanffy, <em>General System Theory</em></p>
+</blockquote>
+<p>简单来说，系统可以被定义为：元素以及元素之间的相互关系。</p>
+<p>进一步而言，系统，是资源的循环，是数据的互换与流转。</p>
+<h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><p><img src="https://img-blog.csdnimg.cn/img_convert/3644bfd1420b84e7ff921cb1b9575eea.png" alt="img"></p>
+<p>游戏系统可分为6大板块，值得注意的是这六大系统并不是独立的，而是相辅相成的。</p>
+<p>Brandon将逐条进行分析</p>
+<h4 id="基础系统"><a href="#基础系统" class="headerlink" title="基础系统"></a>基础系统</h4><p><img src="https://img-blog.csdnimg.cn/8d846baf3cf641ec8a390a755d28725a.png?x-oss-process=image,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LuK5aSp5L2g5Lus5o6J5aS05Y-R5LqG5ZCX,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p>这是《明日方舟》的登录界面，游戏的登录系统是基础系统的重要组成部分。</p>
+<p>根据登录画面，我们可以构造出如下的系统框架<br><img src="https://img-blog.csdnimg.cn/8d9c4f54b5c040e784895125785437e1.png?x-oss-process=image,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LuK5aSp5L2g5Lus5o6J5aS05Y-R5LqG5ZCX,size_12,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p>而游戏的设置系统如下图<br><img src="https://img-blog.csdnimg.cn/fec6446fcffd4d429342ffaf15074b2b.png?x-oss-process=image,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LuK5aSp5L2g5Lus5o6J5aS05Y-R5LqG5ZCX,size_18,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<h4 id="养成系统"><a href="#养成系统" class="headerlink" title="养成系统"></a>养成系统</h4><p>养成系统是游戏氪金的主要来源，也是决定游戏时长和游戏黏度的关键之一。</p>
+<p>该图为获取干员的系统<br><img src="https://img-blog.csdnimg.cn/93378f3520c54cabbea5781a40fbe69b.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LuK5aSp5L2g5Lus5o6J5aS05Y-R5LqG5ZCX,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p>《明日方舟》被誉为“良心”游戏的一大原因是它对轻度玩家以及中/低氪玩家很友善。这主要体现在：</p>
+<p>\1. 明日方舟的干员获取系统注重于“重复资源的利用”，抽到相同角色时能产出“潜能信物”以及“资质/高级凭证”这两种资源，用于提升角色的面板能力以及兑换其他六星角色，尽量减少玩家抽到相同角色时的沮丧感。</p>
+<p>2.游戏给玩家提供了比较丰厚的抽卡资源。玩家在微氪状态下依然可以获得不错的游戏体验。游戏倾向于为所有人提供较舒适的游戏体验，让微氪玩家逐步扩大消费。</p>
+<p>3.游戏不会利用高难度关卡逼迫玩家收集稀有角色。在游戏初期（前四章），低星角色的使用体验和稀有角色基本无太大区别。</p>
+<p>同时，<strong>明日方舟对抽卡的“不确定性”进行了减弱</strong>。游戏的抽卡出货概率在第50抽之后会按比较陡峭的曲线上升，从而尽可能地减少了“运气不好”的倒霉玩家，类似于<strong>削掉了正态分布的一侧</strong>。同时，游戏的5星保底机制给了轻度玩家很强的刺激性，<strong>让第一次10连成为一件有“确定收益”的事情</strong>，靠着“抽10次” 这个比较容易达成的小目标<strong>促使他们持续地养成轻度消费的习惯（抽出5星保底）</strong>。玩家在收集角色的前期阶段会获得比较欢愉的体验，直到阵容接近完整。</p>
+<h4 id="战斗系统"><a href="#战斗系统" class="headerlink" title="战斗系统"></a>战斗系统</h4><p>马一下，以后写</p>
+<h4 id="玩法系统"><a href="#玩法系统" class="headerlink" title="玩法系统"></a>玩法系统</h4><p>马一下，以后具体写</p>
+<h4 id="经济系统"><a href="#经济系统" class="headerlink" title="经济系统"></a>经济系统</h4><p>马一下，以后具体写</p>
+<h4 id="社交系统"><a href="#社交系统" class="headerlink" title="社交系统"></a>社交系统</h4><p>游戏中的社交系统有很多类型</p>
+<ul>
+<li><strong>深度社交：稳定关系，利益捆绑</strong></li>
+</ul>
+<p>网游中的结婚系统不用我多说了吧，</p>
+<ul>
+<li>中度社交：</li>
+</ul>
+<p>《光荣使命》《绝地求生》等吃鸡类游戏中的组队玩法，或者《王者荣耀》的组队玩法</p>
+<ul>
+<li><strong>广度社交：大团队，共同目标</strong></li>
+</ul>
+<p>大多是mmorpg，通过游戏公会/俱乐部形成纽带</p>
+<ul>
+<li><strong>泛化社交：玩家与系统玩法的社交形式</strong></li>
+</ul>
+<p>pve游戏中也可以有社交尝试，例如《光遇》玩家加入，《原神》的小队玩法</p>
+<p>明日方舟需要寻找一个可以增进玩家体验同时又绕开“竞争型”玩法的社交系统。明日方舟选择了用“互助型”社交取代“竞争型”社交。</p>
+<p>明日方舟的社交系统总共有三大块：1.干员助阵。2.情报交换。3.好友基地互访。这三项都能产出“信用”货币作为激励玩家进行社交相关活动的收益；“信用”货币可用于兑换养成资源。</p>
+<ul>
+<li>干员助阵</li>
+</ul>
+<p><strong>游戏利用“好友互借工具”这种行为的特征，用非常轻度的设计，尽可能地在游戏外组织玩家社交/自发推广。</strong>玩家需要和好友沟通，提前说明要“借”哪位干员，搭配什么配置，交流使用思路等等，才能最大发挥出“好友助阵”的功效，<strong>这样一样来，游戏内不存在的社交系统就一次性在游戏外得到了补齐，</strong>堪称完美设计。</p>
+<p>游戏内没有短信系统，没有“世界频道/工会”但是明日方舟的传播势头却相当强劲，已经是当下二次元文化圈种最具现象性的话题。明日方舟相对较难的关卡以及复杂的关卡解法其实也是在鼓励玩家进行游戏外的交流。我很少看到一款手游有如此多的攻略视频和文章，似乎也说明了明日方舟在关卡设计上对产品传播能力的考虑。</p>
+<p>同时，试用这个强力角色（如笔者刚刚玩了嵯峨），会感受到该角色不同体验，一定程度上促进玩家氪金抽卡，形成了社交系统到氪金运营的转化。、</p>
+<ul>
+<li>基地互访</li>
+</ul>
+<p>它的作用和大多数游戏里的“好友家园互访”作用一致。是玩家进行个人展示的重要渠道。此处不做赘述。装扮一个温馨的罗德岛基建，是玩家将自己的情感代入游戏角色，培养对干员的喜爱情感并构建游戏沉浸感的核心渠道。起到了帮助玩家进行自我表达的功能，同时作为一个相对柔性的氪金消费点。</p>
+<p>我的评价是 像过家家。</p>
+<ul>
+<li>会客厅</li>
+</ul>
+<p>“会客厅”是基建的一个功能性建筑。用于收集“线索”，同时“会客厅”等级会影响玩家的好友人数上限。玩家通过入驻不同的干员角色收集某一种个组织的“线索”。当获得特定线索组合后，解锁“线索交流”阶段。在交流期间，玩家可以通过频繁访问好友的基建，获取大量的“信用”货币。</p>
+<p>玩家也可以把收集到的“线索”传递给其他玩家，从而解决对方的“线索”错配问题，互帮互助。系统通过非常简单的设计，鼓励玩家进行“协助性”行为。</p>
+<h2 id="如何拆解游戏系统"><a href="#如何拆解游戏系统" class="headerlink" title="如何拆解游戏系统"></a>如何拆解游戏系统</h2><h3 id="step1：体验游戏"><a href="#step1：体验游戏" class="headerlink" title="step1：体验游戏"></a>step1：体验游戏</h3><p>.体验游戏很重要，你需要去游玩一段时间游戏，进入到一定层次的游戏阶段，尽量游玩游戏的所有系统，你才能知道游戏拆解的具体内容写什么。</p>
+<h3 id="step2：从界面入手"><a href="#step2：从界面入手" class="headerlink" title="step2：从界面入手"></a>step2：从界面入手</h3><p><img src="https://img-blog.csdnimg.cn/73c0753593c8488783f828cb9890ec71.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5LuK5aSp5L2g5Lus5o6J5aS05Y-R5LqG5ZCX,size_20,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p>这是明日方舟的游戏开始画面，从交互界面中可以直接将系统的具体分支直接提炼出来。</p>
+<p>左上角的设置符号显然是基础系统，而右上角的表明了游戏的经济符号，通过对这类元素的拆解可以得到游戏的经济系统。</p>
+<p>基建和干员表明游戏的养成系统，任务那一栏则是对经济资源投放和战斗系统开展的基石。终端代表着游戏的战斗系统。</p>
+<h3 id="step3-开始！"><a href="#step3-开始！" class="headerlink" title="step3 开始！"></a>step3 开始！</h3><p>对于拆解思路，引用了知乎上的回答</p>
+<blockquote>
+<p>作者：天之虹<br>链接：<a target="_blank" rel="noopener" href="https://www.zhihu.com/question/348422772/answer/858721576">https://www.zhihu.com/question/348422772/answer/858721576</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+<p><strong>1.拆定位：</strong></p>
+<p>这个系统在整个游戏里处于什么定位？核心/延伸/辅助/商业？养成/玩法/社交？它与游戏中其他系统构成什么关系？</p>
+<p>——为此你需要简单构建一张游戏全系统的脑图，清晰勾勒出该系统的定位。</p>
+<p><strong>2.拆目的：</strong></p>
+<p>为什么要有这个系统？它弥补了某种属性追求？补缺了某类实力验证？拉动了某种关系建立？满足了某种体验需求？商业化上对活跃/付费产生了某类作用？又或者是他存在着非常多的负面影响，对原有优雅的产品框架拖了后腿甚至造成破坏？</p>
+<p><strong>3.拆结构：</strong></p>
+<p>将系统内部结构拆出，系统内的子系统彼此间的关联或影响关系，系统内的资源流转关系，系统与外部的输入输出及输入输出相对接的系统玩法。</p>
+<p>——就像一张电路图或机械结构图，一图看清楚内部结构和运转规律。</p>
+<p><strong>4.拆数值：</strong></p>
+<p>系统内的数值有什么设计规律。相比于总体盘子：属性价值如何，投放比例如何？产销规则如何，资源需求与产生价值如何？</p>
+<p>与哪些属性条目或能力相关？数值在平滑提升和难度关隘上的设计规律如何？存在哪些精妙的数值小规则影响系统的体感？</p>
+<p><strong>4.拆规则：</strong></p>
+<p>序号没错，接下来的三步都需要同步进行。</p>
+<p>系统中的具体规则是什么？输入什么，做了什么处理，输出什么？进入的条件门槛是什么，处理中做了什么分支或筛选，输出中做了什么额外加工？系统中有哪些精妙的小规则影响系统的体感？</p>
+<p><strong>4.拆包装：</strong></p>
+<p>系统的概念包装是什么样的？其下子系统、规则、资源的概念包装是什么？这些概念串在一起造成的意识理解和数值规则及系统规则天生一致吗？换言之系统的概念包装本身就对整个系统的数值和规则产生自解释效果吗？</p>
+<p>亦或是像大多数游戏，系统的概念包装非常草率，仅仅加了一个约定俗成或容易命名的俗名而已。</p>
+<p><strong>5.拆交互：</strong></p>
+<p>系统的交互布局如何？主体焦点在哪里，信息区在哪里，操作区在哪里，与其他系统的交互布局是否统一？</p>
+<p>系统的交互路径如何？操作动线平滑且符合视觉与操作习惯？点击步骤尽可能少而便捷？前后界面的交互路径是连贯而无割离感？</p>
+<p>系统的交互体感如何？按键尺寸是否点击舒适，拖拽滑动的敏感性是否恰到好处，点击控件的声色形反应是否产生爽感？</p>
+<p>系统的交互辅助如何？信息文本是否清晰易读，图形信息是否易辨识无歧义，按钮与文字的视觉突出是否便于抓住重点或辅助决策，输入与输出的说明提示是否充分？</p>
+<p><strong>6.拆体验：</strong></p>
+<p>在刚接触这个系统时，你是怎么理解的，你是怎么用怎么玩的？你过了多久才恍然大悟知道系统的真正用法，是怎么领悟到的？在你完全掌握这个系统后，你又是怎么玩的？</p>
+<p>其他人体验历程和你一样吗？有比你上手更快的人吗，他们是靠什么快速掌握的？有比你上手更惨的人吗，他们出现了什么你所幸没经历的惨况？</p>
+<p>你用下来感受如何，相比于其他你用过的同类系统如何？其他玩家用下来感受如何，大家对它的评价如何？</p>
+<p>你觉得造成以上体验的原因分析是什么？</p>
+<p><strong>7.循环完善、串联总结：</strong></p>
+<p>最后，把前6步重新再回顾一下，你会发现原本对每一步的思考都可以修正和完善，如此循环几轮（越庞大的系统循环次数越多）。</p>
+<p>循环几轮之后，六步的结果你能融汇成一个结论了，那就是你串联出的总结。</p>
+<p>至此系统的深度完整拆解就完成了。</p>
+</blockquote>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                        
+                            <li title='1' data-url='http://link.hhtjim.com/163/425570952.mp3'></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='true'
+        data-ae='false'
+        data-ci=''
+        data-cs=''
+        data-r=''
+        data-o=''
+        data-a=''
+        data-d='false'
+    >查看评论</div>
+
+
+    </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>
