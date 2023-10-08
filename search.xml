@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>demo2</title>
-    <url>/2023/10/07/demo2/</url>
-    <content><![CDATA[<h1 id="Galaxy-Port"><a href="#Galaxy-Port" class="headerlink" title="Galaxy Port"></a>Galaxy Port</h1><h2 id="Basic-information"><a href="#Basic-information" class="headerlink" title="Basic information"></a>Basic information</h2><p>Game: Galaxy Port</p>
-<p>Engine: Unity</p>
-<p>Date:  Oct 2022</p>
-<p>Download:<a class="link"   href="https://brandon-official.itch.io/galaxyport" >https://brandon-official.itch.io/galaxyport<i class="fas fa-external-link-alt"></i></a></p>
-<p>Button Guide</p>
-<blockquote>
-<p>space : jump</p>
-<p>Arrow down key：roll</p>
-<p>A&#x2F;D : menu switching</p>
-<p>mouse left：Interact</p>
-</blockquote>
-<p>video：</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G_Zkxjhy1Tk?si=Ld3eB8Vz3G8kKDu3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
-<h2 id="Game-Concept"><a href="#Game-Concept" class="headerlink" title="Game Concept"></a>Game Concept</h2><p>Players will take on the role of an “interstellar mailman” to travel between planets with the help of an ejection bin, overcoming various obstacles, unlocking new cool abilities, exploring unknown worlds in the starry sky, and gradually discovering the truth of the “apocalypse”.</p>
-<h2 id="Game-Play"><a href="#Game-Play" class="headerlink" title="Game Play"></a>Game Play</h2><p>Manipulation</p>
-<p>“Easy to understand, hard to master”,  I want players to be able to quickly familiarize themselves with the game’s operation, so I only set up two core keys, jump and roll, and by using jump and roll, many obstacles can be designed against.</p>
-<p>Progression system</p>
-<h2 id="Level-design"><a href="#Level-design" class="headerlink" title="Level design"></a>Level design</h2>]]></content>
-      <tags>
-        <tag>game</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Demo1</title>
     <url>/2023/09/25/Demo1/</url>
     <content><![CDATA[<h1 id="《Cat-Particle-Duality》"><a href="#《Cat-Particle-Duality》" class="headerlink" title="《Cat-Particle Duality》"></a>《Cat-Particle Duality》</h1><h2 id="Basic-Information"><a href="#Basic-Information" class="headerlink" title="Basic Information"></a>Basic Information</h2><p>Game：Cat-Particle Duality</p>
@@ -69,6 +41,72 @@
       </tags>
   </entry>
   <entry>
+    <title>demo2</title>
+    <url>/2023/10/07/demo2/</url>
+    <content><![CDATA[<h1 id="Galaxy-Port"><a href="#Galaxy-Port" class="headerlink" title="Galaxy Port"></a>Galaxy Port</h1><h2 id="Basic-information"><a href="#Basic-information" class="headerlink" title="Basic information"></a>Basic information</h2><p>Game: Galaxy Port</p>
+<p>Engine: Unity</p>
+<p>Date:  Oct 2022</p>
+<p>Download:<a class="link"   href="https://brandon-official.itch.io/galaxyport" >https://brandon-official.itch.io/galaxyport<i class="fas fa-external-link-alt"></i></a></p>
+<p>Button Guide</p>
+<blockquote>
+<p>space : jump</p>
+<p>Arrow down key：roll</p>
+<p>A&#x2F;D : menu switching</p>
+<p>mouse left：Interact</p>
+</blockquote>
+<p>video：</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G_Zkxjhy1Tk?si=Ld3eB8Vz3G8kKDu3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+<h2 id="Game-Concept"><a href="#Game-Concept" class="headerlink" title="Game Concept"></a>Game Concept</h2><p>Players will take on the role of an “interstellar mailman” to travel between planets with the help of an ejection bin, overcoming various obstacles, unlocking new cool abilities, exploring unknown worlds in the starry sky, and gradually discovering the truth of the “apocalypse”.</p>
+<h2 id="Game-Play"><a href="#Game-Play" class="headerlink" title="Game Play"></a>Game Play</h2><h3 id="Manipulation"><a href="#Manipulation" class="headerlink" title="Manipulation"></a>Manipulation</h3><p>“Easy to understand, hard to master”,  I want players to be able to quickly familiarize themselves with the game’s operation, so I only set up two core keys, jump and roll, and by using jump and roll, many obstacles can be designed against.</p>
+<h3 id="Progression-system"><a href="#Progression-system" class="headerlink" title="Progression system"></a>Progression system</h3><p><a href="https://imgse.com/i/pPvm8GF"><img src="https://z1.ax1x.com/2023/10/08/pPvm8GF.png" alt="pPvm8GF.png"></a></p>
+<p>I’ve set the player’s level into 3 stages, which are upgraded to unlock the appropriate skills. These skills improve the player’s maneuverability, increase fault tolerance (such as giving the player a shield), and all for the player to be able to explore longer and go farther places.</p>
+<h2 id="Level-design"><a href="#Level-design" class="headerlink" title="Level design"></a>Level design</h2><h3 id="OASIS"><a href="#OASIS" class="headerlink" title="OASIS"></a>OASIS</h3><p><a href="https://imgse.com/i/pPvntfS"><img src="https://z1.ax1x.com/2023/10/08/pPvntfS.png" alt="pPvntfS.png"></a></p>
+<p>It is the planet on which the planet messenger primarily works, surrounded by a large amount of green vegetation and a well-developed ecosystem. Similar to Earth’s overall structure and physical system, it has been made an Oasis of the Universe (OASIS) for its safety and pleasant living environment</p>
+<p>Obstacles are designed to be very simple, with only ground spikes and hovering objects. Players only need to learn the two basic operations of jumping and rolling to pass all the obstacles when parkouring on this planet. After holding on for 40s and unlocking the ejection capsule, you can shuttle to the next planet.</p>
+<h3 id="Rolling-Axe"><a href="#Rolling-Axe" class="headerlink" title="Rolling Axe"></a>Rolling Axe</h3><p>Mountainous planet inhabited by a group of bird people. The terrain is rugged and accompanied by occasional rockfalls. There are many traditional industrial zones as interstellar mines.</p>
+<p><a href="https://imgse.com/i/pPvMmWT"><img src="https://z1.ax1x.com/2023/10/08/pPvMmWT.png" alt="pPvMmWT.png"></a></p>
+<p>In Planet Rolling Axe, players will need to gradually learn to master some advanced jumping techniques in order to get through obstacles, such as the one in the picture above, which requires the player to maneuver the robot to jump first and then immediately fall down.</p>
+<p><a href="https://imgse.com/i/pPvMJFx"><img src="https://z1.ax1x.com/2023/10/08/pPvMJFx.png" alt="pPvMJFx.png"></a></p>
+<p>During my testing I realized that the player’s jetpack, which is unlocked later in the game, allows the player to ignore the ground spike obstacle. So I set up boulders that would gradually fall as the player approached, requiring the player to immediately drop and roll to pass.</p>
+<h3 id="Crystal-Dream"><a href="#Crystal-Dream" class="headerlink" title="Crystal Dream"></a>Crystal Dream</h3><p><a href="https://imgse.com/i/pPvQJBj"><img src="https://z1.ax1x.com/2023/10/08/pPvQJBj.png" alt="pPvQJBj.png"></a></p>
+<p>Crystal Dream’s obstacle generation is very dense, is the fastest paced planet, players face dense spikes need to flexibly utilize the two jumps or jetpacks can pass. At the same time, there are shield props available in the suspended obstacles, a typical high-risk, high-yield case show.</p>
+<h3 id="Fallen-Stage"><a href="#Fallen-Stage" class="headerlink" title="Fallen Stage"></a>Fallen Stage</h3><p><a href="https://imgse.com/i/pPv8sRx"><img src="https://z1.ax1x.com/2023/10/08/pPv8sRx.png" alt="pPv8sRx.png"></a></p>
+<p>The obstacles in Apocalypse Planet are very challenging, and obstacles must be two jumped to get over, not with a traditional jetpack.</p>
+<p><a href="https://imgse.com/i/pPvGuSx"><img src="https://z1.ax1x.com/2023/10/08/pPvGuSx.png" alt="pPvGuSx.png"></a></p>
+<p>Players also need to use advanced jumping techniques, such as the right side of the map requires players to roll into ball form, and then jump at the right time to enter the passage without injury. The bottom obstacle of the map requires the player to jump twice to reach a high enough height, and then quickly fall into ball form in order to pass.</p>
+]]></content>
+      <tags>
+        <tag>game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>寒假生活</title>
+    <url>/2023/02/08/%E5%AF%92%E5%81%87%E7%94%9F%E6%B4%BB/</url>
+    <content><![CDATA[<p>寒假去了不少好玩的地方，和大伙简单分享下。</p>
+<h2 id="紫砂壶之都–宜兴"><a href="#紫砂壶之都–宜兴" class="headerlink" title="紫砂壶之都–宜兴"></a>紫砂壶之都–宜兴</h2><p>今年春节也是去宜兴过年的，上次去还是高考结束后，那时的我得到了华科的录取通知书，可谓春风得意马蹄疾，今年显然面临升学的一些烦恼，疲态很多。</p>
+<img src="https://i.328888.xyz/2023/02/10/RkCVL.jpeg" alt="RkCVL.jpeg" border="0" />
+
+<img src="https://i.328888.xyz/2023/02/10/RktUa.jpeg" alt="RktUa.jpeg" border="0" />
+
+<h2 id="魔都–上海"><a href="#魔都–上海" class="headerlink" title="魔都–上海"></a>魔都–上海</h2><p>大城市就是不一样哇，数不清的商业广场。住的酒店就是太逆天了，如家快捷酒店，美团评分看起来还行，结果依托答辩，住的房间旁边一直都是闹哄哄的声音不知道在干什么东西，并且贼热，很多人肯定非常好奇热不好吗，刚好上海那时候也挺冷的还下雨，问题是太热了！热的让我和同伴直接空调开制冷。</p>
+<img src="https://i.328888.xyz/2023/02/10/RkULw.jpeg" alt="RkULw.jpeg" border="0" />
+
+<img src="https://i.328888.xyz/2023/02/10/RkDgz.jpeg" alt="RkDgz.jpeg" border="0" />
+
+<h2 id="苏州"><a href="#苏州" class="headerlink" title="苏州"></a>苏州</h2><p>苏州很舒服，吴侬软语的很好听，并且住了波青旅，更是舒服死了。</p>
+<p>苏州博物馆的馆藏也很好看。</p>
+<p><a href="https://imgloc.com/i/RkACq"><img src="https://i.328888.xyz/2023/02/10/RkACq.jpeg" alt="RkACq.jpeg" border="0" style="zoom:33%;" /></a></p>
+<img src="https://i.328888.xyz/2023/02/10/Rkkok.jpeg" width alt="Rkkok.jpeg" border="0">
+
+]]></content>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>价值回归是早晚的事</title>
     <url>/2023/03/10/%E4%BB%B7%E5%80%BC%E5%9B%9E%E5%BD%92%E6%98%AF%E6%97%A9%E6%99%9A%E7%9A%84%E4%BA%8B/</url>
     <content><![CDATA[<h2 id="01-引入概念"><a href="#01-引入概念" class="headerlink" title="01 引入概念"></a>01 引入概念</h2><p>丁真本来只是一个笑容纯真的藏族小伙罢了，如果没有经典的野性笑容视频和开启丁真宇宙的”一眼丁真，鉴定为假“表情包，他不会成为互联网抽象文化的符号本身以及被网暴嘲笑一辈子。而他本身的价值也仅仅停留在作为维新派吸烟的代表人物，联合国的动物朋友而已。显然相比鼎盛时期的狼狗少年绝绝子，现在价值已经回归到旅游局编制内人员罢。</p>
@@ -97,86 +135,6 @@
 <p>有些人肯定许愿成功了，悦刻5代的水果味烟雾似乎吸引了摄影师胡波，不经意间拍摄的康巴小哥后来变成了顶流网红丁真，有些人许愿肯定失败了，因为据我所知，蒙德城水池许愿池那个女npc的哥哥，每天晚上都会到水池把白天妹妹许愿抛下的硬币捡起来贴补家用。</p>
 <p>moonblast在他的博客提到，只有发生<strong>重大变故</strong>才能改变现在的境况，例如传播班取消招生全体成员解散之类，<strong>三体</strong>也谈到了这个概念，价值回归规律如果发生在待宰的火鸡场，那看起来只是火鸡科学家提出的可笑理论罢。</p>
 <img src="https://i.328888.xyz/2023/03/10/oTSF5.png" alt="oTSF5.png" border="0">
-]]></content>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>寒假生活</title>
-    <url>/2023/02/08/%E5%AF%92%E5%81%87%E7%94%9F%E6%B4%BB/</url>
-    <content><![CDATA[<p>寒假去了不少好玩的地方，和大伙简单分享下。</p>
-<h2 id="紫砂壶之都–宜兴"><a href="#紫砂壶之都–宜兴" class="headerlink" title="紫砂壶之都–宜兴"></a>紫砂壶之都–宜兴</h2><p>今年春节也是去宜兴过年的，上次去还是高考结束后，那时的我得到了华科的录取通知书，可谓春风得意马蹄疾，今年显然面临升学的一些烦恼，疲态很多。</p>
-<img src="https://i.328888.xyz/2023/02/10/RkCVL.jpeg" alt="RkCVL.jpeg" border="0" />
-
-<img src="https://i.328888.xyz/2023/02/10/RktUa.jpeg" alt="RktUa.jpeg" border="0" />
-
-<h2 id="魔都–上海"><a href="#魔都–上海" class="headerlink" title="魔都–上海"></a>魔都–上海</h2><p>大城市就是不一样哇，数不清的商业广场。住的酒店就是太逆天了，如家快捷酒店，美团评分看起来还行，结果依托答辩，住的房间旁边一直都是闹哄哄的声音不知道在干什么东西，并且贼热，很多人肯定非常好奇热不好吗，刚好上海那时候也挺冷的还下雨，问题是太热了！热的让我和同伴直接空调开制冷。</p>
-<img src="https://i.328888.xyz/2023/02/10/RkULw.jpeg" alt="RkULw.jpeg" border="0" />
-
-<img src="https://i.328888.xyz/2023/02/10/RkDgz.jpeg" alt="RkDgz.jpeg" border="0" />
-
-<h2 id="苏州"><a href="#苏州" class="headerlink" title="苏州"></a>苏州</h2><p>苏州很舒服，吴侬软语的很好听，并且住了波青旅，更是舒服死了。</p>
-<p>苏州博物馆的馆藏也很好看。</p>
-<p><a href="https://imgloc.com/i/RkACq"><img src="https://i.328888.xyz/2023/02/10/RkACq.jpeg" alt="RkACq.jpeg" border="0" style="zoom:33%;" /></a></p>
-<img src="https://i.328888.xyz/2023/02/10/Rkkok.jpeg" width alt="Rkkok.jpeg" border="0">
-
-]]></content>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>游戏是我的未来道路吗</title>
-    <url>/2023/02/18/%E6%B8%B8%E6%88%8F%E6%98%AF%E6%88%91%E7%9A%84%E6%9C%AA%E6%9D%A5%E9%81%93%E8%B7%AF%E5%90%97/</url>
-    <content><![CDATA[<p>在我上大学之前，我对游戏和游戏行业是没有很强的认知的，首先在大学之前的游戏经历上，我主要是农批和2kol玩家，根植在国内氪金土壤中，对于所谓第九艺术以及3a完全没有兴趣。<br>毕竟那时，我的职业规划是去当一个产品经理，这是我暑假研究了好多华科专业后最后敲定的选择，甚至做着研究生去英国水个硕士，然后和w一起回南京的逆天梦。为此我还参加了冰岩作坊的pm组面试，现在回想起来那些问题还是比较常规的，但对于当时小镇做题家的我来说堪称天书，几乎没有任何产品思维，再加上迷茫地度过了大一上学期后，我突然觉得，似乎永远也不会够格当pm了。<br>后来选择游戏策划的原因也挺复杂的，你可以说是源于kuma君大一上学期代的一节课，可能源于w当时很喜欢玩塞尔达传说，也可能源于当时想学rpgmaker做一款游戏比送实体生日礼物显得有诚意，总之是个没有很强烈理由的开始，逐渐地影响了我的大学生活。</p>
-<p>经过了两次实习后，我开始转变了我的一些想法，如果时间停留在20年厦门或者22年珠海的夏天就太好了。</p>
-<p><strong>未来可以有几种选择</strong><br>回淮安当努力考公务员似乎是一个很好的选择，甚至今年过年的时候家里人都给我张罗相亲了（笑）<br>去新加坡随便读个硕士似乎也是一个选择，甚至是我妈最希望我成为的样子 （除了去清华读研以外）毕竟她很多朋友家孩子也在新加坡读书或者定居。<br>还有一种可能是我考研失败了 又没拿到offer，最后只能灰溜溜地入职美团，当骑手，考虑到我逆天的财务管理水平，感觉会被所有亲戚背后笑话啃老族。</p>
-<p>谁会当游戏策划呢？商业化游戏公司里，游戏设计的改动是需要承担商业风险的，你想要的好的设计在项目经理眼里就是不行。<br>而很多人都会说去做独立游戏就可以了，我不认为现在有很多人是真心诚意想去做独游的，这需要足够的耐心和毅力。<br>给个7位数的年薪，我不认为现在独游还会继续存在，即使有，那也是不缺钱或者有着苦行僧般伟大的心。<br>所以我为什么会选择当游戏策划，很显然对于美术，我功底很差，而程序方面也并不是很熟练，所以看起来游戏策划是唯一可以入手的岗位了，仅此而已。至于市场发行、运营等部门，自己乖张叛逆的性格更不适合了。</p>
-<p>那么游戏策划是我未来的道路吗，我想应该也是的，但或许不会把它当成工作岗位，也许是日后下班后会去做的事，兴趣变成工作这件事真wildestdream，我认为我没有那个运气。<br>大一下当时的规划现在看来已经很可笑了，年少的热情和梦想果然还是消失了，但只要还残留了一点火苗，也许很多年过去我都不会担心长夜将至。</p>
-<p>最后我希望在毕业前可以做出一款我自己风格的作品，它必须是逆天的，充满讽刺意味的，故事的主角也许经历了很多年的暗恋，稍纵即逝的恋情，漫长的挣扎以及宁静祥和的余生。最好可以加入一些有趣的游戏机制，类似snap，弹反，下劈这种标志性游戏设计。游戏里不能存在任何真实生活的映射，完全需要设计者反现实逻辑的构思。</p>
-]]></content>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>聂鲁达诗歌选集</title>
-    <url>/2023/02/06/%E8%81%82%E9%B2%81%E8%BE%BE%E8%AF%97%E6%AD%8C%E9%80%89%E9%9B%86/</url>
-    <content><![CDATA[<blockquote>
-<p>爱一个人，眼睛里都会闪耀着星星。</p>
-</blockquote>
-<blockquote>
-<p>在我荒瘠的土地上，你是<a class="link"   href="https://www.zhihu.com/search?q=%E6%9C%80%E5%90%8E%E7%9A%84%E7%8E%AB%E7%91%B0&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:%222036785783%22%7D" >最后的玫瑰<i class="fas fa-external-link-alt"></i></a>。</p>
-</blockquote>
-<blockquote>
-<p>每个白昼，都要落进黑夜的沉潭，像有那么一口井，锁住了光明。</p>
-</blockquote>
-<blockquote>
-<p>我不再爱她，这是确定的，但我也许爱她，</p>
-<p><strong>爱情太短，而遗忘太长。</strong></p>
-</blockquote>
-<blockquote>
-<p>The solitude crossed with dream and with silence.Penned up between the sea and sadness.</p>
-<p> 孤寂借梦和沉默穿过，在海与哀伤之间被囚禁。</p>
-</blockquote>
-<blockquote>
-<p>我们甚至失去了黄昏的颜色。当<a class="link"   href="https://www.zhihu.com/search?q=%E8%93%9D%E8%89%B2%E7%9A%84%E5%A4%9C&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2086183170%7D" >蓝色的夜<i class="fas fa-external-link-alt"></i></a>坠落在世界时，没人看见我们手牵着手。</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>文学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>自由意志的沉沦</title>
-    <url>/2023/08/15/%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97%E7%9A%84%E6%B2%89%E6%B2%A6/</url>
-    <content><![CDATA[<p>“<strong>自由意志的沉沦，是指个体意志在社会、历史、文化等外部力量的影响下，失去了独立自主的能力，受到限制与束缚，无法真正体现自身的潜力与智慧。这一说法常常出现在许多哲学、社会学、文化研究等领域</strong>”</p>
-<p>想想过去的时间里，似乎发生了无数次自由意志沉沦的故事。比如18年烙下的思想钢印让我在20年填志愿的时候选择了气候逆天的武汉，而天花乱坠的专业描述让我意志再次沉沦，去了这个专业做上了成为CIO（首席信息执行官）的美梦。回到互联网平台上，这样的意志沉沦服从外部力量的例子同样不少，一句原神启动不知让多少批小将（B站低龄用户的称呼）发电模仿，55开的孝子还在“全体起立”，但凡遇到追星或者去演唱会之类的女生就乱叫其为“小仙女”，看到维护非己方权力的男性就必须嘲讽为“龟男”。</p>
-<p>当然，在玩电子游戏的过程中，玩家也在进行自由意志沉沦的过程，比方说，地形障碍作为物理力量限制玩家的行为模式，而所谓的技能CD作为限制玩家输出上限的手段，玩家是无法宰制这个游戏系统规则的。很多玩家选择沉沦自己的自由意志，耐心用时间去慢慢游玩掌握游戏的诀窍，没错，<strong>自由意志杀不死这个玩家对游戏的爱</strong>。但也因为限制的终极性引发了部分玩家不愿自己的自由意志沉沦在设计师的操控之中，<strong>所以出现了外挂。</strong></p>
-<p>我个人是无所谓<strong>pve</strong>的外挂或者修改器的，毕竟设计师的难度设计并不适合所有玩家，但<strong>pvp</strong>，强调多人竞技的游戏使用外挂在某种程度上可以说是全家福变成了单人照了，你用自己的自由意志换取了别人的沉沦。</p>
-<p>按我这套“<strong>多人互动模式下，让别人自由意志沉沦就是孤儿</strong>”逻辑，发散联想的话，所谓月老、丘比特之类用玄学促成爱情的就可以爬了，本质上只是PUA逻辑的错位和让权，把以个人为主体的pua模式代入到了客体本身。</p>
-<p>所以我永远喜欢很多自由意志尚未开始沉沦的故事，无论是游玩《赛博朋克2077》最初的几小时，还是经典《to the moon》的结局之前。</p>
 ]]></content>
       <tags>
         <tag>生活</tag>
@@ -243,6 +201,48 @@
 ]]></content>
       <tags>
         <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>游戏是我的未来道路吗</title>
+    <url>/2023/02/18/%E6%B8%B8%E6%88%8F%E6%98%AF%E6%88%91%E7%9A%84%E6%9C%AA%E6%9D%A5%E9%81%93%E8%B7%AF%E5%90%97/</url>
+    <content><![CDATA[<p>在我上大学之前，我对游戏和游戏行业是没有很强的认知的，首先在大学之前的游戏经历上，我主要是农批和2kol玩家，根植在国内氪金土壤中，对于所谓第九艺术以及3a完全没有兴趣。<br>毕竟那时，我的职业规划是去当一个产品经理，这是我暑假研究了好多华科专业后最后敲定的选择，甚至做着研究生去英国水个硕士，然后和w一起回南京的逆天梦。为此我还参加了冰岩作坊的pm组面试，现在回想起来那些问题还是比较常规的，但对于当时小镇做题家的我来说堪称天书，几乎没有任何产品思维，再加上迷茫地度过了大一上学期后，我突然觉得，似乎永远也不会够格当pm了。<br>后来选择游戏策划的原因也挺复杂的，你可以说是源于kuma君大一上学期代的一节课，可能源于w当时很喜欢玩塞尔达传说，也可能源于当时想学rpgmaker做一款游戏比送实体生日礼物显得有诚意，总之是个没有很强烈理由的开始，逐渐地影响了我的大学生活。</p>
+<p>经过了两次实习后，我开始转变了我的一些想法，如果时间停留在20年厦门或者22年珠海的夏天就太好了。</p>
+<p><strong>未来可以有几种选择</strong><br>回淮安当努力考公务员似乎是一个很好的选择，甚至今年过年的时候家里人都给我张罗相亲了（笑）<br>去新加坡随便读个硕士似乎也是一个选择，甚至是我妈最希望我成为的样子 （除了去清华读研以外）毕竟她很多朋友家孩子也在新加坡读书或者定居。<br>还有一种可能是我考研失败了 又没拿到offer，最后只能灰溜溜地入职美团，当骑手，考虑到我逆天的财务管理水平，感觉会被所有亲戚背后笑话啃老族。</p>
+<p>谁会当游戏策划呢？商业化游戏公司里，游戏设计的改动是需要承担商业风险的，你想要的好的设计在项目经理眼里就是不行。<br>而很多人都会说去做独立游戏就可以了，我不认为现在有很多人是真心诚意想去做独游的，这需要足够的耐心和毅力。<br>给个7位数的年薪，我不认为现在独游还会继续存在，即使有，那也是不缺钱或者有着苦行僧般伟大的心。<br>所以我为什么会选择当游戏策划，很显然对于美术，我功底很差，而程序方面也并不是很熟练，所以看起来游戏策划是唯一可以入手的岗位了，仅此而已。至于市场发行、运营等部门，自己乖张叛逆的性格更不适合了。</p>
+<p>那么游戏策划是我未来的道路吗，我想应该也是的，但或许不会把它当成工作岗位，也许是日后下班后会去做的事，兴趣变成工作这件事真wildestdream，我认为我没有那个运气。<br>大一下当时的规划现在看来已经很可笑了，年少的热情和梦想果然还是消失了，但只要还残留了一点火苗，也许很多年过去我都不会担心长夜将至。</p>
+<p>最后我希望在毕业前可以做出一款我自己风格的作品，它必须是逆天的，充满讽刺意味的，故事的主角也许经历了很多年的暗恋，稍纵即逝的恋情，漫长的挣扎以及宁静祥和的余生。最好可以加入一些有趣的游戏机制，类似snap，弹反，下劈这种标志性游戏设计。游戏里不能存在任何真实生活的映射，完全需要设计者反现实逻辑的构思。</p>
+]]></content>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>聂鲁达诗歌选集</title>
+    <url>/2023/02/06/%E8%81%82%E9%B2%81%E8%BE%BE%E8%AF%97%E6%AD%8C%E9%80%89%E9%9B%86/</url>
+    <content><![CDATA[<blockquote>
+<p>爱一个人，眼睛里都会闪耀着星星。</p>
+</blockquote>
+<blockquote>
+<p>在我荒瘠的土地上，你是<a class="link"   href="https://www.zhihu.com/search?q=%E6%9C%80%E5%90%8E%E7%9A%84%E7%8E%AB%E7%91%B0&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:%222036785783%22%7D" >最后的玫瑰<i class="fas fa-external-link-alt"></i></a>。</p>
+</blockquote>
+<blockquote>
+<p>每个白昼，都要落进黑夜的沉潭，像有那么一口井，锁住了光明。</p>
+</blockquote>
+<blockquote>
+<p>我不再爱她，这是确定的，但我也许爱她，</p>
+<p><strong>爱情太短，而遗忘太长。</strong></p>
+</blockquote>
+<blockquote>
+<p>The solitude crossed with dream and with silence.Penned up between the sea and sadness.</p>
+<p> 孤寂借梦和沉默穿过，在海与哀伤之间被囚禁。</p>
+</blockquote>
+<blockquote>
+<p>我们甚至失去了黄昏的颜色。当<a class="link"   href="https://www.zhihu.com/search?q=%E8%93%9D%E8%89%B2%E7%9A%84%E5%A4%9C&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2086183170%7D" >蓝色的夜<i class="fas fa-external-link-alt"></i></a>坠落在世界时，没人看见我们手牵着手。</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>文学</tag>
       </tags>
   </entry>
   <entry>
@@ -346,6 +346,20 @@
 ]]></content>
       <tags>
         <tag>工作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>自由意志的沉沦</title>
+    <url>/2023/08/15/%E8%87%AA%E7%94%B1%E6%84%8F%E5%BF%97%E7%9A%84%E6%B2%89%E6%B2%A6/</url>
+    <content><![CDATA[<p>“<strong>自由意志的沉沦，是指个体意志在社会、历史、文化等外部力量的影响下，失去了独立自主的能力，受到限制与束缚，无法真正体现自身的潜力与智慧。这一说法常常出现在许多哲学、社会学、文化研究等领域</strong>”</p>
+<p>想想过去的时间里，似乎发生了无数次自由意志沉沦的故事。比如18年烙下的思想钢印让我在20年填志愿的时候选择了气候逆天的武汉，而天花乱坠的专业描述让我意志再次沉沦，去了这个专业做上了成为CIO（首席信息执行官）的美梦。回到互联网平台上，这样的意志沉沦服从外部力量的例子同样不少，一句原神启动不知让多少批小将（B站低龄用户的称呼）发电模仿，55开的孝子还在“全体起立”，但凡遇到追星或者去演唱会之类的女生就乱叫其为“小仙女”，看到维护非己方权力的男性就必须嘲讽为“龟男”。</p>
+<p>当然，在玩电子游戏的过程中，玩家也在进行自由意志沉沦的过程，比方说，地形障碍作为物理力量限制玩家的行为模式，而所谓的技能CD作为限制玩家输出上限的手段，玩家是无法宰制这个游戏系统规则的。很多玩家选择沉沦自己的自由意志，耐心用时间去慢慢游玩掌握游戏的诀窍，没错，<strong>自由意志杀不死这个玩家对游戏的爱</strong>。但也因为限制的终极性引发了部分玩家不愿自己的自由意志沉沦在设计师的操控之中，<strong>所以出现了外挂。</strong></p>
+<p>我个人是无所谓<strong>pve</strong>的外挂或者修改器的，毕竟设计师的难度设计并不适合所有玩家，但<strong>pvp</strong>，强调多人竞技的游戏使用外挂在某种程度上可以说是全家福变成了单人照了，你用自己的自由意志换取了别人的沉沦。</p>
+<p>按我这套“<strong>多人互动模式下，让别人自由意志沉沦就是孤儿</strong>”逻辑，发散联想的话，所谓月老、丘比特之类用玄学促成爱情的就可以爬了，本质上只是PUA逻辑的错位和让权，把以个人为主体的pua模式代入到了客体本身。</p>
+<p>所以我永远喜欢很多自由意志尚未开始沉沦的故事，无论是游玩《赛博朋克2077》最初的几小时，还是经典《to the moon》的结局之前。</p>
+]]></content>
+      <tags>
+        <tag>生活</tag>
       </tags>
   </entry>
 </search>
