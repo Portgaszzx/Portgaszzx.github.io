@@ -1,46 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Demo1</title>
-    <url>/2023/09/25/Demo1/</url>
-    <content><![CDATA[<h1 id="《Cat-Particle-Duality》"><a href="#《Cat-Particle-Duality》" class="headerlink" title="《Cat-Particle Duality》"></a>《Cat-Particle Duality》</h1><h2 id="Basic-Information"><a href="#Basic-Information" class="headerlink" title="Basic Information"></a>Basic Information</h2><p>Game：Cat-Particle Duality</p>
-<p>Engine：Unity</p>
-<p>Date： June 2022</p>
-<p>download：<a class="link"   href="https://brandon-official.itch.io/cat-particle-duality" >https://brandon-official.itch.io/cat-particle-duality<i class="fas fa-external-link-alt"></i></a></p>
-<p>Button Guide:</p>
-<blockquote>
-<p>A&#x2F;D : left&#x2F;right</p>
-<p>space bar: jump</p>
-<p>E: interact</p>
-<p>Q: switch </p>
-<p>P：switch（in two player game mode)</p>
-</blockquote>
-<p>video：<a href="https://www.youtube.com/watch?v=LDC1Vg6sXVg"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1695652889/video_to_markdown/images/youtube--LDC1Vg6sXVg-c05b58ac6eb4c4700831b2b3070cd403.jpg"></a></p>
-<p>The first version of this game project was finished  in  GGJ2022,	The theme of gamejam is “<strong>Duality</strong>“ The first version                         contains  5 levels. After 5 months, I iterated on version 2.0, adding a new puzzle mechanic, and the game ended up having 2 large chapters with 8 levels in total.</p>
-<h2 id="Game-Concept"><a href="#Game-Concept" class="headerlink" title="Game Concept"></a>Game Concept</h2><p>The plot of the game is roughly about a cow cat of the hostess who mistakenly entered the dimension and split into a black cat that can move in three dimensions and a white cat that can only move in two dimensions.</p>
-<p>The two cats will cooperate with each other to defeat the enemies, get the key to open the door and finally return to their mistress!</p>
-<p><a href="https://imgse.com/i/pPviXOf"><img src="https://z1.ax1x.com/2023/10/08/pPviXOf.jpg" alt="pPviXOf.jpg"></a></p>
-<h2 id="Game-play"><a href="#Game-play" class="headerlink" title="Game play"></a>Game play</h2><h3 id="Chapter-I"><a href="#Chapter-I" class="headerlink" title="Chapter I"></a>Chapter I</h3><p><a href="https://imgse.com/i/pPjh2He"><img src="https://z1.ax1x.com/2023/10/07/pPjh2He.png" alt="pPjh2He.png"></a></p>
-<h3 id="Chapter-II"><a href="#Chapter-II" class="headerlink" title="Chapter II"></a>Chapter II</h3><p>Based on the gameplay of the first chapter, I found that the white cat has a lot less freedom of action than the black cat, and cannot jump freely, get keys, and defeat enemies like the black cat. So I added an ability to the white cat: you can switch the color of a special brick at any time</p>
-<p><a href="https://imgse.com/i/pPj4AUJ"><img src="https://z1.ax1x.com/2023/10/07/pPj4AUJ.png" alt="pPj4AUJ.png"></a></p>
-<h2 id="Level-design"><a href="#Level-design" class="headerlink" title="Level design"></a>Level design</h2><h3 id="Lock-amp-Key"><a href="#Lock-amp-Key" class="headerlink" title="Lock &amp; Key"></a>Lock &amp; Key</h3><p><a href="https://imgse.com/i/pPj2XSf"><img src="https://z1.ax1x.com/2023/10/07/pPj2XSf.png" alt="pPj2XSf.png"></a></p>
-<p>In the first level, I want the player to find their own way to get the key, open the door, and finally clear the level.</p>
-<p>This design also follows each subsequent level</p>
-<h3 id="Mutiple-Routes"><a href="#Mutiple-Routes" class="headerlink" title="Mutiple Routes"></a>Mutiple Routes</h3><p><a href="https://imgse.com/i/pPjRZXF"><img src="https://z1.ax1x.com/2023/10/07/pPjRZXF.png" alt="pPjRZXF.png"></a></p>
-<p>Because it is the last level of the first chapter, I want to test the player’s puzzle solving skills on the one hand, and guide the player to discover the hidden speed run route on the other hand.</p>
-<p>Players can choose not to get the key, directly from the middle of the map, and use advanced jumping skills to finally clear the level.</p>
-<p>Of course, players can also get two keys, open two doors, and finally clear the level.</p>
-<h3 id="Backtracking"><a href="#Backtracking" class="headerlink" title="Backtracking"></a>Backtracking</h3><p><a href="https://imgse.com/i/pPjRyjS"><img src="https://z1.ax1x.com/2023/10/07/pPjRyjS.png" alt="pPjRyjS.png"></a></p>
-<p>There is a key placed next to the monster, but the monster moves quickly, it is difficult for the black cat and the white cat to get the sword directly, kill the monster to get the key, so the black cat and the white cat need to cooperate with each other, avoid the patrol of the two monsters, get the sword in the middle of the map, and then turn back to kill the monster.</p>
-<p><a href="https://imgse.com/i/pPjWmgf"><img src="https://z1.ax1x.com/2023/10/07/pPjWmgf.png" alt="pPjWmgf.png"></a></p>
-<p>In the third level, the black cat needs to get two keys to open the door, but because the base jump height of the black cat is only 2 blocks, it will be found that the black cat cannot return normally.</p>
-<p>There is a Chinese folk saying called “cats have nine lives”, in the game, the cat will return to the starting point after encountering a spike death, and the player can use the death mechanism to return to the starting point, and it is easy to find the route at this time!</p>
-]]></content>
-      <tags>
-        <tag>game</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Demo2</title>
     <url>/2023/10/07/Demo2/</url>
     <content><![CDATA[<h1 id="Galaxy-Port"><a href="#Galaxy-Port" class="headerlink" title="Galaxy Port"></a>Galaxy Port</h1><h2 id="Basic-information"><a href="#Basic-information" class="headerlink" title="Basic information"></a>Basic information</h2><p>Game: Galaxy Port</p>
@@ -81,5 +41,63 @@
       <tags>
         <tag>game</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Demo1</title>
+    <url>/2023/09/25/Demo1/</url>
+    <content><![CDATA[<h1 id="《Cat-Particle-Duality》"><a href="#《Cat-Particle-Duality》" class="headerlink" title="《Cat-Particle Duality》"></a>《Cat-Particle Duality》</h1><h2 id="Basic-Information"><a href="#Basic-Information" class="headerlink" title="Basic Information"></a>Basic Information</h2><p>Game：Cat-Particle Duality</p>
+<p>Engine：Unity</p>
+<p>Date： June 2022</p>
+<p>download：<a class="link"   href="https://brandon-official.itch.io/cat-particle-duality" >https://brandon-official.itch.io/cat-particle-duality<i class="fas fa-external-link-alt"></i></a></p>
+<p>Button Guide:</p>
+<blockquote>
+<p>A&#x2F;D : left&#x2F;right</p>
+<p>space bar: jump</p>
+<p>E: interact</p>
+<p>Q: switch </p>
+<p>P：switch（in two player game mode)</p>
+</blockquote>
+<p>video：<a href="https://www.youtube.com/watch?v=LDC1Vg6sXVg"><img src="https://res.cloudinary.com/marcomontalbano/image/upload/v1695652889/video_to_markdown/images/youtube--LDC1Vg6sXVg-c05b58ac6eb4c4700831b2b3070cd403.jpg"></a></p>
+<p>The first version of this game project was finished  in  GGJ2022,	The theme of gamejam is “<strong>Duality</strong>“ The first version                         contains  5 levels. After 5 months, I iterated on version 2.0, adding a new puzzle mechanic, and the game ended up having 2 large chapters with 8 levels in total.</p>
+<h2 id="Game-Concept"><a href="#Game-Concept" class="headerlink" title="Game Concept"></a>Game Concept</h2><p>The plot of the game is roughly about a cow cat of the hostess who mistakenly entered the dimension and split into a black cat that can move in three dimensions and a white cat that can only move in two dimensions.</p>
+<p>The two cats will cooperate with each other to defeat the enemies, get the key to open the door and finally return to their mistress!</p>
+<p><a href="https://imgse.com/i/pPviXOf"><img src="https://z1.ax1x.com/2023/10/08/pPviXOf.jpg" alt="pPviXOf.jpg"></a></p>
+<h2 id="Game-play"><a href="#Game-play" class="headerlink" title="Game play"></a>Game play</h2><h3 id="Chapter-I"><a href="#Chapter-I" class="headerlink" title="Chapter I"></a>Chapter I</h3><p><a href="https://imgse.com/i/pPjh2He"><img src="https://z1.ax1x.com/2023/10/07/pPjh2He.png" alt="pPjh2He.png"></a></p>
+<h3 id="Chapter-II"><a href="#Chapter-II" class="headerlink" title="Chapter II"></a>Chapter II</h3><p>Based on the gameplay of the first chapter, I found that the white cat has a lot less freedom of action than the black cat, and cannot jump freely, get keys, and defeat enemies like the black cat. So I added an ability to the white cat: you can switch the color of a special brick at any time</p>
+<p><a href="https://imgse.com/i/pPj4AUJ"><img src="https://z1.ax1x.com/2023/10/07/pPj4AUJ.png" alt="pPj4AUJ.png"></a></p>
+<h2 id="Level-design"><a href="#Level-design" class="headerlink" title="Level design"></a>Level design</h2><h3 id="Lock-amp-Key"><a href="#Lock-amp-Key" class="headerlink" title="Lock &amp; Key"></a>Lock &amp; Key</h3><p><a href="https://imgse.com/i/pPj2XSf"><img src="https://z1.ax1x.com/2023/10/07/pPj2XSf.png" alt="pPj2XSf.png"></a></p>
+<p>In the first level, I want the player to find their own way to get the key, open the door, and finally clear the level.</p>
+<p>This design also follows each subsequent level</p>
+<h3 id="Mutiple-Routes"><a href="#Mutiple-Routes" class="headerlink" title="Mutiple Routes"></a>Mutiple Routes</h3><p><a href="https://imgse.com/i/pPjRZXF"><img src="https://z1.ax1x.com/2023/10/07/pPjRZXF.png" alt="pPjRZXF.png"></a></p>
+<p>Because it is the last level of the first chapter, I want to test the player’s puzzle solving skills on the one hand, and guide the player to discover the hidden speed run route on the other hand.</p>
+<p>Players can choose not to get the key, directly from the middle of the map, and use advanced jumping skills to finally clear the level.</p>
+<p>Of course, players can also get two keys, open two doors, and finally clear the level.</p>
+<h3 id="Backtracking"><a href="#Backtracking" class="headerlink" title="Backtracking"></a>Backtracking</h3><p><a href="https://imgse.com/i/pPjRyjS"><img src="https://z1.ax1x.com/2023/10/07/pPjRyjS.png" alt="pPjRyjS.png"></a></p>
+<p>There is a key placed next to the monster, but the monster moves quickly, it is difficult for the black cat and the white cat to get the sword directly, kill the monster to get the key, so the black cat and the white cat need to cooperate with each other, avoid the patrol of the two monsters, get the sword in the middle of the map, and then turn back to kill the monster.</p>
+<p><a href="https://imgse.com/i/pPjWmgf"><img src="https://z1.ax1x.com/2023/10/07/pPjWmgf.png" alt="pPjWmgf.png"></a></p>
+<p>In the third level, the black cat needs to get two keys to open the door, but because the base jump height of the black cat is only 2 blocks, it will be found that the black cat cannot return normally.</p>
+<p>There is a Chinese folk saying called “cats have nine lives”, in the game, the cat will return to the starting point after encountering a spike death, and the player can use the death mechanism to return to the starting point, and it is easy to find the route at this time!</p>
+]]></content>
+      <tags>
+        <tag>game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Demo4</title>
+    <url>/2023/10/16/Demo4/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Demo3</title>
+    <url>/2023/10/16/Demo3/</url>
+    <content><![CDATA[<h1 id="DDL-LAB"><a href="#DDL-LAB" class="headerlink" title="DDL LAB"></a>DDL LAB</h1>]]></content>
+      <tags>
+        <tag>game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>design</title>
+    <url>/2023/10/16/design/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
