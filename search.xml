@@ -43,7 +43,36 @@
       </tags>
   </entry>
   <entry>
-    <title>demo2</title>
+    <title>Demo4</title>
+    <url>/2023/10/16/Demo4/</url>
+    <content><![CDATA[<h1 id="Cat-express"><a href="#Cat-express" class="headerlink" title="Cat express"></a>Cat express</h1><h2 id="Basic-information"><a href="#Basic-information" class="headerlink" title="Basic information"></a>Basic information</h2><p>Game: Cat express</p>
+<p>Engine: Unity</p>
+<p>Date:  Aug, 2022</p>
+<p>Download: <a class="link"   href="https://brandon-official.itch.io/cat-express" >https://brandon-official.itch.io/cat-express<i class="fas fa-external-link-alt"></i></a></p>
+<p>Cat Express is a puzzle game based on the Snake mechanic, where the player takes on the role of a cat that eventually reaches the end of the line with the help of eating fruits and other means.</p>
+<p>video:</p>
+<iframe width="500" height="315" src="https://www.youtube.com/embed/z2GOmFFlubg?si=awlZfbOwodxVo4e7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h2 id="Gameplay"><a href="#Gameplay" class="headerlink" title="Gameplay:"></a>Gameplay:</h2><p><strong>Length control</strong>, <strong>resource management</strong>, and <strong>gravity</strong> are the three pillars of the game, and a number of mechanisms have been designed to address these three points, which are represented in the first, second, and third major ones, respectively.</p>
+<ul>
+<li>Eat cat food to increase length</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/111d44e787de4431b5628f4fbdd8594e.png" alt="在这里插入图片描述"></p>
+<ul>
+<li>Split the body to solve the puzzle collaboratively</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/ff85e60b5cc143f5bf1829ef78e5576f.png" alt="在这里插入图片描述"></p>
+<ul>
+<li>Dye the corresponding color to pass through a specific area</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/5dbd33f41056441c94be523317347e3f.png" alt="在这里插入图片描述"></p>
+]]></content>
+      <tags>
+        <tag>game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Demo2</title>
     <url>/2023/10/07/Demo2/</url>
     <content><![CDATA[<h1 id="Galaxy-Port"><a href="#Galaxy-Port" class="headerlink" title="Galaxy Port"></a>Galaxy Port</h1><h2 id="Basic-information"><a href="#Basic-information" class="headerlink" title="Basic information"></a>Basic information</h2><p>Game: Galaxy Port</p>
 <p>Engine: Unity</p>
@@ -85,6 +114,20 @@
       </tags>
   </entry>
   <entry>
+    <title>other game</title>
+    <url>/2023/10/16/design/</url>
+    <content><![CDATA[<p>在校期间我还有其他游戏项目创作经历，在这里简单阐述一下</p>
+<p>1.危机公关桌游</p>
+<p>2.严肃游戏辅助医疗</p>
+<p>3.战春</p>
+<p>4.悬崖之上</p>
+<p>5.朝闻道</p>
+]]></content>
+      <tags>
+        <tag>game</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Demo3</title>
     <url>/2023/10/16/Demo3/</url>
     <content><![CDATA[<h1 id="DDL-Lab"><a href="#DDL-Lab" class="headerlink" title="DDL Lab"></a>DDL Lab</h1><h2 id="Basic-information："><a href="#Basic-information：" class="headerlink" title="Basic information："></a>Basic information：</h2><p>Game: Deadline Lab</p>
@@ -104,45 +147,5 @@
       <tags>
         <tag>game</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Demo4</title>
-    <url>/2023/10/16/Demo4/</url>
-    <content><![CDATA[<h1 id="Cat-express"><a href="#Cat-express" class="headerlink" title="Cat express"></a>Cat express</h1><h2 id="Basic-information"><a href="#Basic-information" class="headerlink" title="Basic information"></a>Basic information</h2><p>Game: Cat express</p>
-<p>Engine: Unity</p>
-<p>Date:  Aug, 2022</p>
-<p>Download: <a class="link"   href="https://brandon-official.itch.io/cat-express" >https://brandon-official.itch.io/cat-express<i class="fas fa-external-link-alt"></i></a></p>
-<p>Cat Express is a puzzle game based on the Snake mechanic, where the player takes on the role of a cat that eventually reaches the end of the line with the help of eating fruits and other means.</p>
-<p>video:</p>
-<iframe width="500" height="315" src="https://www.youtube.com/embed/z2GOmFFlubg?si=awlZfbOwodxVo4e7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<h2 id="Gameplay"><a href="#Gameplay" class="headerlink" title="Gameplay:"></a>Gameplay:</h2><p><strong>Length control</strong>, <strong>resource management</strong>, and <strong>gravity</strong> are the three pillars of the game, and a number of mechanisms have been designed to address these three points, which are represented in the first, second, and third major ones, respectively.</p>
-<ul>
-<li>Eat cat food to increase length</li>
-</ul>
-<p><img src="https://img-blog.csdnimg.cn/111d44e787de4431b5628f4fbdd8594e.png" alt="在这里插入图片描述"></p>
-<ul>
-<li>Split the body to solve the puzzle collaboratively</li>
-</ul>
-<p><img src="https://img-blog.csdnimg.cn/ff85e60b5cc143f5bf1829ef78e5576f.png" alt="在这里插入图片描述"></p>
-<ul>
-<li>Dye the corresponding color to pass through a specific area</li>
-</ul>
-<p><img src="https://img-blog.csdnimg.cn/5dbd33f41056441c94be523317347e3f.png" alt="在这里插入图片描述"></p>
-]]></content>
-      <tags>
-        <tag>game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>design</title>
-    <url>/2023/10/16/design/</url>
-    <content><![CDATA[<p>在校期间我还有其他游戏项目创作经历，在这里简单阐述一下</p>
-<p>1.危机公关桌游</p>
-<p>2.严肃游戏辅助医疗</p>
-<p>3.战春</p>
-<p>4.悬崖之上</p>
-<p>5.朝闻道</p>
-]]></content>
   </entry>
 </search>
