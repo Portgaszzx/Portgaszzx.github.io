@@ -1,35 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Demo4</title>
-    <url>/2023/10/16/Demo4/</url>
-    <content><![CDATA[<h1 id="Cat-express"><a href="#Cat-express" class="headerlink" title="Cat express"></a>Cat express</h1><h2 id="Basic-information"><a href="#Basic-information" class="headerlink" title="Basic information"></a>Basic information</h2><p>Game: Cat express</p>
-<p>Engine: Unity</p>
-<p>Date:  Aug, 2022</p>
-<p>Download: <a class="link"   href="https://brandon-official.itch.io/cat-express" >https://brandon-official.itch.io/cat-express<i class="fas fa-external-link-alt"></i></a></p>
-<p>Cat Express is a puzzle game based on the Snake mechanic, where the player takes on the role of a cat that eventually reaches the end of the line with the help of eating fruits and other means.</p>
-<p>video:</p>
-<iframe width="500" height="315" src="https://www.youtube.com/embed/z2GOmFFlubg?si=awlZfbOwodxVo4e7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<h2 id="Gameplay"><a href="#Gameplay" class="headerlink" title="Gameplay:"></a>Gameplay:</h2><p><strong>Length control</strong>, <strong>resource management</strong>, and <strong>gravity</strong> are the three pillars of the game, and a number of mechanisms have been designed to address these three points, which are represented in the first, second, and third major ones, respectively.</p>
-<ul>
-<li>Eat cat food to increase length</li>
-</ul>
-<p><a href="https://sm.ms/image/CAxHh4utae69B5U" target="_blank"><img src="https://s2.loli.net/2023/10/16/CAxHh4utae69B5U.png" ></a></p>
-<ul>
-<li>Split the body to solve the puzzle collaboratively</li>
-</ul>
-<p><a href="https://sm.ms/image/BGOaYIN8Fk6DjQ3" target="_blank"><img src="https://s2.loli.net/2023/10/16/BGOaYIN8Fk6DjQ3.png" ></a></p>
-<ul>
-<li>Dye the corresponding color to pass through a specific area</li>
-</ul>
-<p><a href="https://sm.ms/image/6P7wY1uyAbmZ2QG" target="_blank"><img src="https://s2.loli.net/2023/10/16/6P7wY1uyAbmZ2QG.png" ></a></p>
-]]></content>
-      <tags>
-        <tag>game</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Demo1</title>
     <url>/2023/09/25/Demo1/</url>
     <content><![CDATA[<h1 id="《Cat-Particle-Duality》"><a href="#《Cat-Particle-Duality》" class="headerlink" title="《Cat-Particle Duality》"></a>《Cat-Particle Duality》</h1><h2 id="Basic-Information"><a href="#Basic-Information" class="headerlink" title="Basic Information"></a>Basic Information</h2><p>Game：Cat-Particle Duality</p>
@@ -66,6 +37,44 @@
 <p><a href="https://imgse.com/i/pPjWmgf"><img src="https://z1.ax1x.com/2023/10/07/pPjWmgf.png" alt="pPjWmgf.png"></a></p>
 <p>In the third level, the black cat needs to get two keys to open the door, but because the base jump height of the black cat is only 2 blocks, it will be found that the black cat cannot return normally.</p>
 <p>There is a Chinese folk saying called “cats have nine lives”, in the game, the cat will return to the starting point after encountering a spike death, and the player can use the death mechanism to return to the starting point, and it is easy to find the route at this time!</p>
+]]></content>
+      <tags>
+        <tag>game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Demo3</title>
+    <url>/2023/10/16/Demo3/</url>
+    <content><![CDATA[<h1 id="DDL-Lab"><a href="#DDL-Lab" class="headerlink" title="DDL Lab"></a>DDL Lab</h1><h2 id="Basic-information："><a href="#Basic-information：" class="headerlink" title="Basic information："></a>Basic information：</h2><p>Game: Deadline Lab</p>
+<p>Engine: Unity</p>
+<p>Date:  April 2022</p>
+<p>Download: <a class="link"   href="https://brandon-official.itch.io/ddl-lab" >https://brandon-official.itch.io/ddl-lab<i class="fas fa-external-link-alt"></i></a></p>
+<p>Results：</p>
+<p>DDL lab is a simulator game created at Ld51, which ended up playing well, ranking 26th globally in innovation and 366th globally in overall rankings.</p>
+<p><a href="https://imgse.com/i/piCe2vT"><img src="https://z1.ax1x.com/2023/10/16/piCe2vT.png" alt="piCe2vT.png"></a></p>
+<h3 id="Gameplay"><a href="#Gameplay" class="headerlink" title="Gameplay:"></a>Gameplay:</h3><p>The game mechanism is relatively simple, each marble represents a schedule, I need to shoot the marble to the timeline, the schedule represented by the marble determines the player’s stress, the mood of multiple dimensions, the player needs to make a good numerical management, so that the player’s mood and stress in the appropriate range. And if there is too much schedule planning in a day, there may be a timeout penalty.</p>
+<p><a href="https://imgse.com/i/piCmeaj"><img src="https://z1.ax1x.com/2023/10/16/piCmeaj.png" alt="piCmeaj.png"></a><br><a href="https://imgse.com/i/piCmmIs"><img src="https://z1.ax1x.com/2023/10/16/piCmmIs.png" alt="piCmmIs.png"></a></p>
+<p><a href="https://imgse.com/i/pirCjE9"><img src="https://z1.ax1x.com/2023/11/30/pirCjE9.md.png" alt="pirCjE9.md.png"></a></p>
+<h3 id="Innovation"><a href="#Innovation" class="headerlink" title="Innovation"></a>Innovation</h3><p>The theme of LD51 is “ <strong>Delay the inevitable</strong>“, during the brainstorming stage, I quickly thought of the common problem of deadline assignments in college students and overtime work in the workplace, so I wanted to make a schedule planning simulator, and at the same time, I wanted to incorporate some interesting terrain of the Chinese Internet, for example, the classic characters of the Chinese Internet such as Ding Zhen, Sun Xiaochuan, and so on.</p>
+<h3 id="Version-2-0"><a href="#Version-2-0" class="headerlink" title="Version 2.0"></a>Version 2.0</h3><p>The development program of ddl-lab has been restarted this year to develop version 2.0, which is a great improvement in game strategy and art performance. Based on the original ddl-lab, it will add some special effects for events, as well as some background narratives.</p>
+<p><a href="https://imgse.com/i/piCtfEt"><img src="https://z1.ax1x.com/2023/10/16/piCtfEt.md.png" alt="piCtfEt.md.png"></a></p>
+]]></content>
+      <tags>
+        <tag>game</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Other game</title>
+    <url>/2023/11/21/game/</url>
+    <content><![CDATA[<h1 id="Other-game"><a href="#Other-game" class="headerlink" title="Other game"></a>Other game</h1><h2 id="1-Board-game"><a href="#1-Board-game" class="headerlink" title="1 Board game"></a>1 Board game</h2><p>“Crisis Public Relations” is based on the board game “Hostage Negotiation”, combined with the background of the real Chengdu high school student falling from the building, and applied the knowledge of communication to make production.  This board game is set in the event of a crisis of public opinion, requiring players to play the role of the government and apply various methods to solve the crisis of public opinion.</p>
+<center class="half">
+<img src="https://z1.ax1x.com/2023/11/21/piawlPx.png" width=300/>
+<img src="https://z1.ax1x.com/2023/11/21/piawMI1.png" width=300/>
+</center>
+
+
+<h2 id="2-Emergency-themed-Serious-Game-Design"><a href="#2-Emergency-themed-Serious-Game-Design" class="headerlink" title="2  Emergency-themed Serious Game Design"></a>2  Emergency-themed Serious Game Design</h2><p>The purpose of this article is to study the development of serious games and try to design a serious game. The concept of serious games was proposed by the educational and sociologist Clark.C. Albert in 1970, and its core extension and application have been developed in the 21st century. This paper summarizes the development process of the concept of serious games at home and abroad, finds that there is a lack of serious games with medical themes as the background in China, and designs and improves a serious game in which the audience plays the role of 120 dispatchers through the waterfall development method, so as to popularize the relevant first aid knowledge.</p>
+<p>project adress: <a class="link"   href="https://brandon-official.itch.io/other-game-design" >https://brandon-official.itch.io/other-game-design<i class="fas fa-external-link-alt"></i></a></p>
 ]]></content>
       <tags>
         <tag>game</tag>
@@ -114,38 +123,29 @@
       </tags>
   </entry>
   <entry>
-    <title>Demo3</title>
-    <url>/2023/10/16/Demo3/</url>
-    <content><![CDATA[<h1 id="DDL-Lab"><a href="#DDL-Lab" class="headerlink" title="DDL Lab"></a>DDL Lab</h1><h2 id="Basic-information："><a href="#Basic-information：" class="headerlink" title="Basic information："></a>Basic information：</h2><p>Game: Deadline Lab</p>
+    <title>Demo4</title>
+    <url>/2023/10/16/Demo4/</url>
+    <content><![CDATA[<h1 id="Cat-express"><a href="#Cat-express" class="headerlink" title="Cat express"></a>Cat express</h1><h2 id="Basic-information"><a href="#Basic-information" class="headerlink" title="Basic information"></a>Basic information</h2><p>Game: Cat express</p>
 <p>Engine: Unity</p>
-<p>Date:  April 2022</p>
-<p>Download: <a class="link"   href="https://brandon-official.itch.io/ddl-lab" >https://brandon-official.itch.io/ddl-lab<i class="fas fa-external-link-alt"></i></a></p>
-<p>Results：</p>
-<p>DDL lab is a simulator game created at Ld51, which ended up playing well, ranking 26th globally in innovation and 366th globally in overall rankings.</p>
-<p><a href="https://imgse.com/i/piCe2vT"><img src="https://z1.ax1x.com/2023/10/16/piCe2vT.png" alt="piCe2vT.png"></a></p>
-<h3 id="Gameplay"><a href="#Gameplay" class="headerlink" title="Gameplay:"></a>Gameplay:</h3><p>The game mechanism is relatively simple, each marble represents a schedule, I need to shoot the marble to the timeline, the schedule represented by the marble determines the player’s stress, the mood of multiple dimensions, the player needs to make a good numerical management, so that the player’s mood and stress in the appropriate range. And if there is too much schedule planning in a day, there may be a timeout penalty.</p>
-<p><a href="https://imgse.com/i/piCmeaj"><img src="https://z1.ax1x.com/2023/10/16/piCmeaj.png" alt="piCmeaj.png"></a><br><a href="https://imgse.com/i/piCmmIs"><img src="https://z1.ax1x.com/2023/10/16/piCmmIs.png" alt="piCmmIs.png"></a></p>
-<p><a href="https://imgse.com/i/pirCjE9"><img src="https://z1.ax1x.com/2023/11/30/pirCjE9.md.png" alt="pirCjE9.md.png"></a></p>
-<h3 id="Innovation"><a href="#Innovation" class="headerlink" title="Innovation"></a>Innovation</h3><p>The theme of LD51 is “ <strong>Delay the inevitable</strong>“, during the brainstorming stage, I quickly thought of the common problem of deadline assignments in college students and overtime work in the workplace, so I wanted to make a schedule planning simulator, and at the same time, I wanted to incorporate some interesting terrain of the Chinese Internet, for example, the classic characters of the Chinese Internet such as Ding Zhen, Sun Xiaochuan, and so on.</p>
-<h3 id="Version-2-0"><a href="#Version-2-0" class="headerlink" title="Version 2.0"></a>Version 2.0</h3><p>The development program of ddl-lab has been restarted this year to develop version 2.0, which is a great improvement in game strategy and art performance. Based on the original ddl-lab, it will add some special effects for events, as well as some background narratives.</p>
-<p><a href="https://imgse.com/i/piCtfEt"><img src="https://z1.ax1x.com/2023/10/16/piCtfEt.md.png" alt="piCtfEt.md.png"></a></p>
-]]></content>
-      <tags>
-        <tag>game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Other game</title>
-    <url>/2023/11/21/game/</url>
-    <content><![CDATA[<h1 id="Other-game"><a href="#Other-game" class="headerlink" title="Other game"></a>Other game</h1><h2 id="1-Board-game"><a href="#1-Board-game" class="headerlink" title="1 Board game"></a>1 Board game</h2><p>“Crisis Public Relations” is based on the board game “Hostage Negotiation”, combined with the background of the real Chengdu high school student falling from the building, and applied the knowledge of communication to make production.  This board game is set in the event of a crisis of public opinion, requiring players to play the role of the government and apply various methods to solve the crisis of public opinion.</p>
-<center class="half">
-<img src="https://z1.ax1x.com/2023/11/21/piawlPx.png" width=300/>
-<img src="https://z1.ax1x.com/2023/11/21/piawMI1.png" width=300/>
-</center>
+<p>Date:  Aug, 2022</p>
+<p>Download: <a class="link"   href="https://brandon-official.itch.io/cat-express" >https://brandon-official.itch.io/cat-express<i class="fas fa-external-link-alt"></i></a></p>
+<p>Cat Express is a puzzle game based on the Snake mechanic, where the player takes on the role of a cat that eventually reaches the end of the line with the help of eating fruits and other means.</p>
+<p>video:</p>
+<iframe width="500" height="315" src="https://www.youtube.com/embed/z2GOmFFlubg?si=awlZfbOwodxVo4e7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
-<h2 id="2-Emergency-themed-Serious-Game-Design"><a href="#2-Emergency-themed-Serious-Game-Design" class="headerlink" title="2  Emergency-themed Serious Game Design"></a>2  Emergency-themed Serious Game Design</h2><p>The purpose of this article is to study the development of serious games and try to design a serious game. The concept of serious games was proposed by the educational and sociologist Clark.C. Albert in 1970, and its core extension and application have been developed in the 21st century. This paper summarizes the development process of the concept of serious games at home and abroad, finds that there is a lack of serious games with medical themes as the background in China, and designs and improves a serious game in which the audience plays the role of 120 dispatchers through the waterfall development method, so as to popularize the relevant first aid knowledge.</p>
-<p>project adress: <a class="link"   href="https://brandon-official.itch.io/other-game-design" >https://brandon-official.itch.io/other-game-design<i class="fas fa-external-link-alt"></i></a></p>
+<h2 id="Gameplay"><a href="#Gameplay" class="headerlink" title="Gameplay:"></a>Gameplay:</h2><p><strong>Length control</strong>, <strong>resource management</strong>, and <strong>gravity</strong> are the three pillars of the game, and a number of mechanisms have been designed to address these three points, which are represented in the first, second, and third major ones, respectively.</p>
+<ul>
+<li>Eat cat food to increase length</li>
+</ul>
+<p><a href="https://sm.ms/image/CAxHh4utae69B5U" target="_blank"><img src="https://s2.loli.net/2023/10/16/CAxHh4utae69B5U.png" ></a></p>
+<ul>
+<li>Split the body to solve the puzzle collaboratively</li>
+</ul>
+<p><a href="https://sm.ms/image/BGOaYIN8Fk6DjQ3" target="_blank"><img src="https://s2.loli.net/2023/10/16/BGOaYIN8Fk6DjQ3.png" ></a></p>
+<ul>
+<li>Dye the corresponding color to pass through a specific area</li>
+</ul>
+<p><a href="https://sm.ms/image/6P7wY1uyAbmZ2QG" target="_blank"><img src="https://s2.loli.net/2023/10/16/6P7wY1uyAbmZ2QG.png" ></a></p>
 ]]></content>
       <tags>
         <tag>game</tag>
