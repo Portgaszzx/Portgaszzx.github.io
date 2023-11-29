@@ -43,6 +43,35 @@
       </tags>
   </entry>
   <entry>
+    <title>Demo4</title>
+    <url>/2023/10/16/Demo4/</url>
+    <content><![CDATA[<h1 id="Cat-express"><a href="#Cat-express" class="headerlink" title="Cat express"></a>Cat express</h1><h2 id="Basic-information"><a href="#Basic-information" class="headerlink" title="Basic information"></a>Basic information</h2><p>Game: Cat express</p>
+<p>Engine: Unity</p>
+<p>Date:  Aug, 2022</p>
+<p>Download: <a class="link"   href="https://brandon-official.itch.io/cat-express" >https://brandon-official.itch.io/cat-express<i class="fas fa-external-link-alt"></i></a></p>
+<p>Cat Express is a puzzle game based on the Snake mechanic, where the player takes on the role of a cat that eventually reaches the end of the line with the help of eating fruits and other means.</p>
+<p>video:</p>
+<iframe width="500" height="315" src="https://www.youtube.com/embed/z2GOmFFlubg?si=awlZfbOwodxVo4e7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h2 id="Gameplay"><a href="#Gameplay" class="headerlink" title="Gameplay:"></a>Gameplay:</h2><p><strong>Length control</strong>, <strong>resource management</strong>, and <strong>gravity</strong> are the three pillars of the game, and a number of mechanisms have been designed to address these three points, which are represented in the first, second, and third major ones, respectively.</p>
+<ul>
+<li>Eat cat food to increase length</li>
+</ul>
+<p><a href="https://sm.ms/image/CAxHh4utae69B5U" target="_blank"><img src="https://s2.loli.net/2023/10/16/CAxHh4utae69B5U.png" ></a></p>
+<ul>
+<li>Split the body to solve the puzzle collaboratively</li>
+</ul>
+<p><a href="https://sm.ms/image/BGOaYIN8Fk6DjQ3" target="_blank"><img src="https://s2.loli.net/2023/10/16/BGOaYIN8Fk6DjQ3.png" ></a></p>
+<ul>
+<li>Dye the corresponding color to pass through a specific area</li>
+</ul>
+<p><a href="https://sm.ms/image/6P7wY1uyAbmZ2QG" target="_blank"><img src="https://s2.loli.net/2023/10/16/6P7wY1uyAbmZ2QG.png" ></a></p>
+]]></content>
+      <tags>
+        <tag>game</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Demo3</title>
     <url>/2023/10/16/Demo3/</url>
     <content><![CDATA[<h1 id="DDL-Lab"><a href="#DDL-Lab" class="headerlink" title="DDL Lab"></a>DDL Lab</h1><h2 id="Basic-information："><a href="#Basic-information：" class="headerlink" title="Basic information："></a>Basic information：</h2><p>Game: Deadline Lab</p>
@@ -117,35 +146,6 @@
 <p>The obstacles in Apocalypse Planet are very challenging, and obstacles must be two jumped to get over, not with a traditional jetpack.</p>
 <p><a href="https://imgse.com/i/pPvGuSx"><img src="https://z1.ax1x.com/2023/10/08/pPvGuSx.png" alt="pPvGuSx.png"></a></p>
 <p>Players also need to use advanced jumping techniques, such as the right side of the map requires players to roll into ball form, and then jump at the right time to enter the passage without injury. The bottom obstacle of the map requires the player to jump twice to reach a high enough height, and then quickly fall into ball form in order to pass.</p>
-]]></content>
-      <tags>
-        <tag>game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Demo4</title>
-    <url>/2023/10/16/Demo4/</url>
-    <content><![CDATA[<h1 id="Cat-express"><a href="#Cat-express" class="headerlink" title="Cat express"></a>Cat express</h1><h2 id="Basic-information"><a href="#Basic-information" class="headerlink" title="Basic information"></a>Basic information</h2><p>Game: Cat express</p>
-<p>Engine: Unity</p>
-<p>Date:  Aug, 2022</p>
-<p>Download: <a class="link"   href="https://brandon-official.itch.io/cat-express" >https://brandon-official.itch.io/cat-express<i class="fas fa-external-link-alt"></i></a></p>
-<p>Cat Express is a puzzle game based on the Snake mechanic, where the player takes on the role of a cat that eventually reaches the end of the line with the help of eating fruits and other means.</p>
-<p>video:</p>
-<iframe width="500" height="315" src="https://www.youtube.com/embed/z2GOmFFlubg?si=awlZfbOwodxVo4e7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<h2 id="Gameplay"><a href="#Gameplay" class="headerlink" title="Gameplay:"></a>Gameplay:</h2><p><strong>Length control</strong>, <strong>resource management</strong>, and <strong>gravity</strong> are the three pillars of the game, and a number of mechanisms have been designed to address these three points, which are represented in the first, second, and third major ones, respectively.</p>
-<ul>
-<li>Eat cat food to increase length</li>
-</ul>
-<p><a href="https://sm.ms/image/CAxHh4utae69B5U" target="_blank"><img src="https://s2.loli.net/2023/10/16/CAxHh4utae69B5U.png" ></a></p>
-<ul>
-<li>Split the body to solve the puzzle collaboratively</li>
-</ul>
-<p><a href="https://sm.ms/image/BGOaYIN8Fk6DjQ3" target="_blank"><img src="https://s2.loli.net/2023/10/16/BGOaYIN8Fk6DjQ3.png" ></a></p>
-<ul>
-<li>Dye the corresponding color to pass through a specific area</li>
-</ul>
-<p><a href="https://sm.ms/image/6P7wY1uyAbmZ2QG" target="_blank"><img src="https://s2.loli.net/2023/10/16/6P7wY1uyAbmZ2QG.png" ></a></p>
 ]]></content>
       <tags>
         <tag>game</tag>
